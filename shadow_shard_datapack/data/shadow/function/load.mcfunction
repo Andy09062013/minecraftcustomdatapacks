@@ -85,3 +85,11 @@ scoreboard objectives add cs.rv dummy
 scoreboard players set #60 cs.t 60
 scoreboard players set #24000 cs.t 24000
 scoreboard players set #4 cs.t 4
+scoreboard objectives add orb dummy
+scoreboard objectives add orb.ok dummy
+scoreboard players set #6 orb 6
+scoreboard players set #-11 orb -11
+scoreboard players set #2 orb 2
+scoreboard players set #3 orb 3
+scoreboard players set #20 orb 20
+scoreboard players set #16 orb 16

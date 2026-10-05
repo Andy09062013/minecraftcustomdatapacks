@@ -28,3 +28,4 @@ function shadow:give/light_shard
 function shadow:give/void_shard
 function shadow:give/eclipse_sword
 function shadow:give/motor_boat
+function shadow:give/orbital_strike

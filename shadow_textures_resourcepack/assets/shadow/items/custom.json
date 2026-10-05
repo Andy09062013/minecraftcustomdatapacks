@@ -511,6 +511,13 @@
           "type": "minecraft:model",
           "model": "shadow:item/motor_boat"
         }
+      },
+      {
+        "when": "orbital_strike",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/orbital_strike"
+        }
       }
     ],
     "fallback": {

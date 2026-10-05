@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:echo_shard",
+    "minecraft:echo_shard",
+    "minecraft:echo_shard",
+    "minecraft:echo_shard"
+  ],
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Orbital Strike",
+        "color": "#bfe9ff"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right click: fire the orbital cannon at the block you're looking at",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hyper death beam, 48 block blast radius",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "text": "Single use. Doesn't break blocks",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:rarity": "epic",
+      "minecraft:item_model": "shadow:custom",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "orbital_strike"
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "shadow_orbital_raw": true
+      }
+    }
+  }
+}
