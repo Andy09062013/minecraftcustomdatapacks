@@ -1,7 +1,7 @@
 execute if score #run cs.t matches 1.. run return fail
 scoreboard players set #run cs.t 1
 scoreboard players set #t cs.t 0
-scoreboard players set #csadd evo.v 170
+scoreboard players set #csadd evo.v 200
 scoreboard players set #r cs.t 1200
 scoreboard players set #h cs.t 600
 data modify storage shadow:cs cam set value {r:12.0d,h:6.0d,jx:0.0d,jy:0.0d,jz:0.0d}
@@ -18,3 +18,4 @@ loot replace entity @e[type=minecraft:armor_stand,tag=cs.actor,limit=1] weapon.m
 function shadow:cs/mannequin
 summon minecraft:item_display ~ ~6 ~12 {Tags:["cs.e","cs.cam"],teleport_duration:2}
 execute as @a run function shadow:cs/enter
+execute store result score #day cs.t run time query daytime

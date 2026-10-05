@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "shadow:font/flash.png",
+      "ascent": 120,
+      "height": 240,
+      "chars": [""]
+    }
+  ]
+}
