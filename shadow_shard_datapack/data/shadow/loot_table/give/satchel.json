@@ -11,23 +11,18 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {
-                  "text": "Satchel",
+                  "text": "Satchel (Pocket 1/5)",
                   "color": "gold"
                 },
                 "minecraft:lore": [
                   {
-                    "text": "A bundle with an extra side pocket",
+                    "text": "5 pockets, each holds a full stack",
                     "color": "gray",
                     "italic": false
                   },
                   {
                     "text": "Crouch while holding it to switch pockets",
                     "color": "yellow",
-                    "italic": false
-                  },
-                  {
-                    "text": "Side pocket: 5 slots",
-                    "color": "gray",
                     "italic": false
                   }
                 ],

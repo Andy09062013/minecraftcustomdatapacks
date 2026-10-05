@@ -58,7 +58,7 @@ execute as @a if items entity @s weapon.mainhand minecraft:written_book[custom_d
 execute as @e[type=minecraft:bat,tag=shadow.mailbat] at @s run function shadow:mailbat_tick
 execute as @a[gamemode=!spectator] if items entity @s container.* *[custom_data~{shadow_satchel:1b}] at @s run function shadow:sat_tick
 execute as @a[gamemode=!spectator] unless items entity @s container.* *[custom_data~{shadow_satchel:1b}] if items entity @s weapon.offhand *[custom_data~{shadow_satchel:1b}] at @s run function shadow:sat_tick
-execute as @e[type=minecraft:item_display,tag=shadow.satbag] run function shadow:sat_bag_check
+kill @e[type=minecraft:item_display,tag=shadow.satbag]
 execute as @a[tag=shadow.napalm_restore] run function shadow:napalm_restore
 execute as @e[type=minecraft:marker,tag=shadow.naptgt] at @s run function shadow:napalm_tgt_tick
 execute as @e[type=minecraft:block_display,tag=shadow.napmark] run function shadow:napalm_mark_tick
