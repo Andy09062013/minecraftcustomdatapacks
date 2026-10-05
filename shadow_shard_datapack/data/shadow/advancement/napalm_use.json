@@ -1,0 +1,1 @@
+{"criteria": {"c": {"trigger": "minecraft:consume_item", "conditions": {"item": {"items": "minecraft:echo_shard", "predicates": {"minecraft:custom_data": "{shadow_napalm:1b}"}}}}}, "rewards": {"function": "shadow:napalm_use"}}

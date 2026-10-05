@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TFT",
+    "GLG"
+  ],
+  "key": {
+    "T": "minecraft:tnt",
+    "F": "minecraft:flint_and_steel",
+    "G": "minecraft:gunpowder",
+    "L": "minecraft:writable_book"
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Napalm Strike",
+        "color": "#ff6a00"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right click: call in an airstrike on the block you're looking at",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "A fighter jet drops napalm bombs that set the area on fire",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Doesn't break blocks (45s cooldown)",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "epic",
+      "minecraft:custom_data": {
+        "shadow_napalm": true
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "napalm_strike"
+        ]
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 0.05,
+        "animation": "none",
+        "sound": "minecraft:block.note_block.hat",
+        "has_consume_particles": false
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 45,
+        "cooldown_group": "shadow:napalm_strike"
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:echo_shard",
+        "count": 1,
+        "components": {
+          "minecraft:custom_data": {
+            "shadow_napalm_rem": true
+          }
+        }
+      }
+    }
+  }
+}

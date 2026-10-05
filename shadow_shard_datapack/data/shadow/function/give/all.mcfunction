@@ -23,3 +23,4 @@ function shadow:give/executioner_axe
 function shadow:give/letter
 function shadow:give/pipebomb
 function shadow:give/satchel
+function shadow:give/napalm_strike

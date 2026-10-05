@@ -60,3 +60,4 @@ scoreboard objectives add shadow.lsub dummy
 scoreboard objectives add shadow.lfrom dummy
 scoreboard objectives add shadow.lto dummy
 scoreboard objectives add shadow.lmid dummy
+scoreboard objectives add shadow.nap dummy
