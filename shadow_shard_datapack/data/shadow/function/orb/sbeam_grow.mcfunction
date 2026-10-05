@@ -1,2 +1,0 @@
-execute as @e[type=minecraft:block_display,tag=orb.sbeam_in] run data merge entity @s {start_interpolation:0,interpolation_duration:4,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.8f,-30f,-0.8f],scale:[1.6f,30f,1.6f]}}
-execute as @e[type=minecraft:block_display,tag=orb.sbeam_out] run data merge entity @s {start_interpolation:0,interpolation_duration:4,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-1.6f,-30f,-1.6f],scale:[3.2f,30f,3.2f]}}

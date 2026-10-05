@@ -13,8 +13,5 @@ execute if entity @s[gamemode=creative] run scoreboard players set @s cs.gm 1
 execute if entity @s[gamemode=adventure] run scoreboard players set @s cs.gm 2
 execute if entity @s[gamemode=spectator] run scoreboard players set @s cs.gm 3
 gamemode spectator @s
-tp @s @e[type=minecraft:item_display,tag=orb.scam,limit=1]
-spectate @e[type=minecraft:item_display,tag=orb.scam,limit=1] @s
-title @s times 0 4 26
-title @s subtitle ""
-title @s title {"text":"","font":"shadow:flash","color":"black"}
+tp @s @e[type=minecraft:item_display,tag=orb.cam,limit=1]
+spectate @e[type=minecraft:item_display,tag=orb.cam,limit=1] @s

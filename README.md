@@ -37,7 +37,7 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
 - Eclipse Sword: Light Shard over Void Shard over stick. Right click swaps forms
   - Light Form (7.5 dmg): hits charge 5 stages (weak hit +1/4, full hit +1/2, crit +1). At stage 5 it bursts for an extra 7.5 damage and gives 1.5 absorption hearts
   - Void Form (7.25 dmg): crits add 1 sec of Wither, every 3rd hit gives 1 absorption heart
-- Orbital Strike: 4 Napalm Strikes crafted together. Single use. Marks the block you look at (up to 256 blocks). Everyone online watches a cutscene of a space cannon firing a death beam at the planet, then the real beam coming down on the target. Everyone is sent back right as it explodes in white light. 48 block radius (400 / 80 / 30 damage by distance), no block damage
+- Orbital Strike: 4 Napalm Strikes crafted together. Single use. Marks the block you look at (up to 256 blocks). Everyone online watches a 7.5 second cutscene of a giant orbital cannon appearing 120 blocks above the target, unfolding, charging up and firing straight down. Everyone is sent back right as the beam explodes in white light. 48 block radius (400 / 80 / 30 damage by distance), no block damage
 - Motor Boat: 2x boat speed, no paddles, leaves ripples. Only runs on water (not land or ice). W/S throttle, A/D steer
 
 ## Motor Boat recipe

@@ -6,6 +6,5 @@ scoreboard players set #ot orb 0
 tag @a remove orb.caster
 tag @s add orb.caster
 execute as @e[type=minecraft:marker,tag=orb.tgt,limit=1] at @s run forceload add ~-48 ~-48 ~48 ~48
-execute in minecraft:the_end run forceload add 1999984 1999984 2000048 2000048
 title @s actionbar {"text":"🛰 Uplink established. Target locked...","color":"#bfe9ff"}
 playsound minecraft:block.beacon.activate master @a ~ ~ ~ 3 1.6
