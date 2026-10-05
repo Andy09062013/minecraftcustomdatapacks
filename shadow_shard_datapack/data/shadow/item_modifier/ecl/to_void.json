@@ -45,7 +45,8 @@
     ],
     "minecraft:custom_data": {
       "shadow_eclipse": true,
-      "ecl_void": true
+      "ecl_void": true,
+      "shadow_v2": true
     },
     "minecraft:custom_model_data": {
       "strings": [

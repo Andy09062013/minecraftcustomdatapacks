@@ -60,7 +60,7 @@ Any book and quill works in the Letter slot.
 
 ## Notes
 
-All custom items use their own item model, so without the resource pack they show as missing textures. The Evolving Blade keeps the vanilla sword looks for each tier.
+All custom items use their own item model, so without the resource pack they show as missing textures. The Evolving Blade keeps the vanilla sword looks for each tier. Old custom items in player inventories and ender chests update to the new models (and the new Heavy Duty Rifle lore) automatically within a second.
 
 The Eclipse Sword adds a new enchantment and damage type, so the server needs a restart (not just /reload) the first time.
 

@@ -1,0 +1,34 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{shadow_v2:1b}"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "shadow:custom",
+      "minecraft:lore": [
+        {
+          "text": "5 second reload",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Each shot eats 2 arrows",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "2x Sniper damage, dead straight",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "Arrows or High Caliber Rounds",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    }
+  }
+]

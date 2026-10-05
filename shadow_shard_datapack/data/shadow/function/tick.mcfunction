@@ -78,3 +78,6 @@ execute as @e[tag=shadow.motorboat] at @s run function shadow:mb_tick
 execute as @e[type=minecraft:item_display,tag=shadow.mbseat] unless function shadow:mb_has_rider run kill @s
 execute as @e[type=minecraft:item_display,tag=shadow.mbseat] unless function shadow:mb_has_vehicle run kill @s
 execute as @e[type=minecraft:marker,tag=shadow.mbmark] unless function shadow:mb_has_vehicle at @s run function shadow:mb_broken
+scoreboard players add #upd mb.t 1
+execute if score #upd mb.t matches 20.. as @a if function shadow:upd_need run function shadow:upd
+execute if score #upd mb.t matches 20.. run scoreboard players set #upd mb.t 0
