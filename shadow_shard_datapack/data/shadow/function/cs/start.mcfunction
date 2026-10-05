@@ -15,5 +15,6 @@ item replace entity @e[type=minecraft:armor_stand,tag=cs.actor,limit=1] armor.ch
 item replace entity @e[type=minecraft:armor_stand,tag=cs.actor,limit=1] armor.legs from entity @s armor.legs
 item replace entity @e[type=minecraft:armor_stand,tag=cs.actor,limit=1] armor.feet from entity @s armor.feet
 loot replace entity @e[type=minecraft:armor_stand,tag=cs.actor,limit=1] weapon.mainhand loot shadow:evo/rage
+function shadow:cs/mannequin
 summon minecraft:item_display ~ ~6 ~12 {Tags:["cs.e","cs.cam"],teleport_duration:2}
 execute as @a run function shadow:cs/enter
