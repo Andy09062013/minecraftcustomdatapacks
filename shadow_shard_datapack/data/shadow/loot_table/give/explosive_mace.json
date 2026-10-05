@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Explosive Mace",
+                  "color": "red"
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:enchantments": {
+                  "shadow:explosive": 1
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "explosive_mace"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

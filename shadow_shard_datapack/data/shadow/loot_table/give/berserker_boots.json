@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Berserker Boots",
+                  "color": "red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Better than diamond, beats netherite below half HP",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Full set: survive fatal hits by burning durability",
+                    "color": "dark_red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "shadow_berserk": true,
+                  "bers_v": 2
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "berserker"
+                  ]
+                },
+                "minecraft:equippable": {
+                  "slot": "feet",
+                  "asset_id": "shadow:berserker",
+                  "equip_sound": "minecraft:item.armor.equip_iron"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "shadow:berserker_feet_armor",
+                    "amount": 3.5,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "shadow:berserker_feet_tough",
+                    "amount": 2.5,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "shadow:berserker_feet_kb",
+                    "amount": 0.05,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:max_damage": 490
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

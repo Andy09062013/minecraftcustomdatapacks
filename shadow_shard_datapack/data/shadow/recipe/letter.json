@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:paper"
+  },
+  "result": {
+    "id": "minecraft:writable_book",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Letter",
+        "color": "gold"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right click to write",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Sign it with the player's name as the title",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "text": "Hold an item in your offhand when sending to attach it",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "shadow_letter": true
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "letter"
+        ]
+      }
+    }
+  }
+}

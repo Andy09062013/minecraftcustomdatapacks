@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CFX"],
+  "key": {"C": "minecraft:coal", "F": "minecraft:flint_and_steel", "X": "minecraft:crossbow"},
+  "result": {
+    "id": "minecraft:blaze_rod",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"text": "Flamethrower", "color": "gold"},
+      "minecraft:lore": [
+        {"text": "Hold right click to spray fire", "color": "gray", "italic": false},
+        {"text": "Shoot through fire or lava for blue flames", "color": "aqua", "italic": false}
+      ],
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "epic",
+      "minecraft:custom_data": {"shadow_flame": true},
+      "minecraft:custom_model_data": {"strings": ["flamethrower"]},
+      "minecraft:consumable": {"consume_seconds": 100000, "animation": "none", "sound": "minecraft:block.fire.ambient", "has_consume_particles": false}
+    }
+  }
+}

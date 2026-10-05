@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Frost Staff",
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Right click: summon 3 ice cubes (5s cooldown)",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Left click: throw an ice cube",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Freezes for 2s + Slowness 5s",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_stack_size": 1,
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "rare",
+                "minecraft:custom_data": {
+                  "shadow_frost": true
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "frost_staff"
+                  ]
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.05,
+                  "animation": "none",
+                  "sound": "minecraft:block.glass.place",
+                  "has_consume_particles": false
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 5,
+                  "cooldown_group": "shadow:frost_staff"
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:stick",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_data": {
+                      "shadow_frost_rem": true
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

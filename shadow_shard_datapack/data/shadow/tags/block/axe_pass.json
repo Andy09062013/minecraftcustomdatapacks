@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#minecraft:replaceable",
+    "#minecraft:flowers",
+    "#minecraft:saplings",
+    "minecraft:torch",
+    "minecraft:wall_torch",
+    "minecraft:redstone_wire",
+    "minecraft:ladder",
+    "minecraft:vine",
+    "minecraft:cobweb",
+    "minecraft:sugar_cane",
+    "#minecraft:buttons",
+    "#minecraft:pressure_plates",
+    "#minecraft:rails"
+  ]
+}

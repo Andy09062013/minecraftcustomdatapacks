@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:arrow",
+    "minecraft:arrow",
+    "minecraft:arrow"
+  ],
+  "result": {
+    "id": "minecraft:spectral_arrow",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "High Caliber Round",
+        "color": "gold"
+      },
+      "minecraft:lore": [
+        {
+          "text": "3x damage",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Glowing + Poison (2s)",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "shadow_caliber": true
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "high_caliber"
+        ]
+      }
+    }
+  }
+}

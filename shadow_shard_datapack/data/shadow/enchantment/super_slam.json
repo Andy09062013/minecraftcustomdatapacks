@@ -1,0 +1,26 @@
+{
+  "description": {"text": "Skyfall", "color": "light_purple"},
+  "supported_items": "minecraft:mace",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {"base": 100, "per_level_above_first": 0},
+  "max_cost": {"base": 100, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["mainhand"],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "requirements": {"condition": "minecraft:entity_scores", "entity": "attacker", "scores": {"shadow.slam": {"max": 0}}},
+        "effect": {"type": "minecraft:run_function", "function": "shadow:slam_start"}
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "requirements": {"condition": "minecraft:entity_properties", "entity": "attacker", "predicate": {"nbt": "{Tags:[\"shadow.slam_fresh\"]}"}},
+        "effect": {"type": "minecraft:run_function", "function": "shadow:slam_victim"}
+      }
+    ]
+  }
+}

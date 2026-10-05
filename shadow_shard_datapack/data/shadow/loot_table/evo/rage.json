@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Rageblade",
+                  "color": "gold",
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "6 hearts per hit",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Turns back into netherite after 60s",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "shadow_evo": true,
+                  "evo_tier": 6
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "rageblade"
+                  ]
+                },
+                "minecraft:max_damage": 1200,
+                "minecraft:damage": 0,
+                "minecraft:enchantments": {
+                  "shadow:evo_lock": 1
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:enchantments"
+                  ]
+                },
+                "!minecraft:enchantable": {},
+                "!minecraft:repairable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:base_attack_damage",
+                    "amount": 11,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:base_attack_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:crossbow",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "minecraft:crossbow",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Blood Crossbow",
+        "color": "dark_red"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Infinite arrows paid in blood",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Costs half a heart per arrow",
+          "color": "red",
+          "italic": false
+        },
+        {
+          "text": "Hit something to heal 0.75 hearts",
+          "color": "green",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "epic",
+      "minecraft:custom_data": {
+        "shadow_blood": true
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "blood_crossbow"
+        ]
+      }
+    }
+  }
+}

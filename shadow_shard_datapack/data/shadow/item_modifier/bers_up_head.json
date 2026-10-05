@@ -1,0 +1,35 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "shadow:berserker_head_armor",
+          "amount": 3.5,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "shadow:berserker_head_tough",
+          "amount": 2.5,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "shadow:berserker_head_kb",
+          "amount": 0.05,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ],
+      "minecraft:max_damage": 420
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{bers_v:2}"
+  }
+]

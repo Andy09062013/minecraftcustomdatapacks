@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:diamond_axe",
+          "predicates": {
+            "minecraft:custom_data": "{shadow_exec:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:axe_throw"
+  }
+}

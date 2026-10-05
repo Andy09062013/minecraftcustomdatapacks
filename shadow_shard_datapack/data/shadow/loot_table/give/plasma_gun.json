@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Plasma Gun",
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Hold longer for more damage and speed",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "15s charge: piercing plasma blast",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "shadow_plasma": true
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "plasma_gun"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

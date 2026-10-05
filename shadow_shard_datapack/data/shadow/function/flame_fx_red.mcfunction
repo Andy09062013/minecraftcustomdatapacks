@@ -1,0 +1,13 @@
+particle minecraft:flame ^ ^-0.2 ^1 0.08 0.08 0.08 0.02 3 force
+particle minecraft:flame ^ ^-0.2 ^1.5 0.12 0.12 0.12 0.02 3 force
+particle minecraft:flame ^ ^-0.2 ^2 0.16 0.16 0.16 0.02 3 force
+particle minecraft:flame ^ ^-0.2 ^2.5 0.2 0.2 0.2 0.02 3 force
+particle minecraft:flame ^ ^-0.2 ^3 0.24 0.24 0.24 0.02 3 force
+particle minecraft:flame ^ ^-0.2 ^3.5 0.28 0.28 0.28 0.02 3 force
+particle minecraft:flame ^ ^-0.2 ^4 0.32 0.32 0.32 0.02 3 force
+particle minecraft:flame ^ ^-0.2 ^4.5 0.36 0.36 0.36 0.02 3 force
+particle minecraft:flame ^ ^-0.2 ^5 0.4 0.4 0.4 0.02 3 force
+particle minecraft:flame ^ ^-0.2 ^5.5 0.44 0.44 0.44 0.02 3 force
+particle minecraft:flame ^ ^-0.2 ^6 0.48 0.48 0.48 0.02 3 force
+particle minecraft:smoke ^ ^-0.1 ^5 0.4 0.4 0.4 0.02 3 force
+particle minecraft:lava ^ ^-0.2 ^3 0.3 0.3 0.3 0 1 force

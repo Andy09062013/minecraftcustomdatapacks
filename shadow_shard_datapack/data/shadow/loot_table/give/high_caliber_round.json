@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spectral_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "High Caliber Round",
+                  "color": "gold"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "3x damage",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Glowing + Poison (2s)",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "shadow_caliber": true
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "high_caliber"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

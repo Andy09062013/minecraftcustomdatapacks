@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Shadow Pack textures",
+    "pack_format": 46,
+    "supported_formats": [46, 200],
+    "min_format": 46,
+    "max_format": 200
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "A",
+    "S"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Wooden Blade",
+        "color": "gold"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Evolves as you deal damage",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Player hits count double",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Next: Stone",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      "minecraft:rarity": "epic",
+      "minecraft:custom_data": {
+        "shadow_evo": true,
+        "evo_tier": 1,
+        "evo_p": 0,
+        "evo_r": 0
+      },
+      "minecraft:max_damage": 1000,
+      "minecraft:damage": 990,
+      "minecraft:enchantments": {
+        "shadow:evo_lock": 1
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments"
+        ]
+      },
+      "!minecraft:enchantable": {},
+      "!minecraft:repairable": {}
+    }
+  }
+}

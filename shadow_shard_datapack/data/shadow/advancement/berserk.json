@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{shadow_bheart:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:berserk"
+  }
+}

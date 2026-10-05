@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "ISI", " S "],
+  "key": {"I": "minecraft:iron_ingot", "S": "minecraft:stick"},
+  "result": {
+    "id": "minecraft:mace",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"text": "Mallet", "color": "yellow"},
+      "minecraft:lore": [
+        {"text": "Hit to stun for 2 seconds", "color": "gray", "italic": false},
+        {"text": "15 second cooldown", "color": "gray", "italic": false}
+      ],
+      "minecraft:custom_data": {"shadow_mallet": true},
+      "minecraft:custom_model_data": {"strings": ["mallet"]},
+      "minecraft:enchantments": {"shadow:stun": 1},
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:tooltip_display": {"hidden_components": ["minecraft:enchantments", "minecraft:attribute_modifiers"]},
+      "minecraft:attribute_modifiers": [
+        {"type": "minecraft:attack_damage", "id": "minecraft:base_attack_damage", "amount": 2, "operation": "add_value", "slot": "mainhand"},
+        {"type": "minecraft:attack_speed", "id": "minecraft:base_attack_speed", "amount": -3.0, "operation": "add_value", "slot": "mainhand"}
+      ]
+    }
+  }
+}

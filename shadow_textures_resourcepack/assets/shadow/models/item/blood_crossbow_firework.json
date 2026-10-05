@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "shadow:item/blood_crossbow_firework"
+  }
+}

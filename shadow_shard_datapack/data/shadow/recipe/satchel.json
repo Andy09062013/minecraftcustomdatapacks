@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:leather",
+    "minecraft:bundle"
+  ],
+  "result": {
+    "id": "minecraft:bundle",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Satchel",
+        "color": "gold"
+      },
+      "minecraft:lore": [
+        {
+          "text": "A bundle with an extra side pocket",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Crouch while holding it to switch pockets",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "text": "Side pocket: 5 slots",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "shadow_satchel": true,
+        "mode": 0
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "satchel"
+        ]
+      }
+    }
+  }
+}

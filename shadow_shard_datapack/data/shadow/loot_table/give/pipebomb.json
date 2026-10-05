@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fire_charge",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Pipebomb",
+                  "color": "dark_gray"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Right click to throw (weaker grenade)",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Hold it in your offhand when sending a letter to attach it \ud83d\ude08",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "shadow_pipe": true
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "pipebomb"
+                  ]
+                },
+                "minecraft:max_stack_size": 16,
+                "minecraft:consumable": {
+                  "consume_seconds": 0.05,
+                  "animation": "none",
+                  "sound": "minecraft:entity.snowball.throw",
+                  "has_consume_particles": false
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 0.5,
+                  "cooldown_group": "shadow:grenades"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

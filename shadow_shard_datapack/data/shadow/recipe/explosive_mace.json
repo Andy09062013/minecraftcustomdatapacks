@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:mace",
+    "minecraft:fire_charge",
+    "minecraft:tnt",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "minecraft:mace",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Explosive Mace",
+        "color": "red"
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:enchantments": {
+        "shadow:explosive": 1
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "explosive_mace"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Iron Blade",
+                  "color": "white"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Evolves as you deal damage",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Player hits count double",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Next: Diamond",
+                    "color": "yellow",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "shadow_evo": true,
+                  "evo_tier": 3,
+                  "evo_p": 0,
+                  "evo_r": 0
+                },
+                "minecraft:max_damage": 1000,
+                "minecraft:damage": 990,
+                "minecraft:enchantments": {
+                  "shadow:evo_lock": 1
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:enchantments"
+                  ]
+                },
+                "!minecraft:enchantable": {},
+                "!minecraft:repairable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

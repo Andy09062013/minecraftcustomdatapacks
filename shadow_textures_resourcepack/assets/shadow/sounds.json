@@ -1,0 +1,4 @@
+{
+  "mallet_squeak": {"subtitle": "Mallet squeaks", "sounds": [{"name": "shadow:mallet_squeak"}]},
+  "super_slam": {"subtitle": "Super Mace slams", "sounds": [{"name": "shadow:super_slam", "attenuation_distance": 48}]}
+}

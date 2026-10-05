@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Satchel",
+                  "color": "gold"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A bundle with an extra side pocket",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crouch while holding it to switch pockets",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "text": "Side pocket: 5 slots",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "shadow_satchel": true,
+                  "mode": 0
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "satchel"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

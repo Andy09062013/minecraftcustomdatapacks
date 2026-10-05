@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:paper",
+          "predicates": {
+            "minecraft:custom_data": "{shadow_letter_mail:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:letter_open"
+  }
+}

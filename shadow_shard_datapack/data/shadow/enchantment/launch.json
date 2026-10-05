@@ -1,0 +1,33 @@
+{
+  "description": {"text": "Launch"},
+  "supported_items": "minecraft:ender_pearl",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {"base": 100, "per_level_above_first": 0},
+  "max_cost": {"base": 100, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["hand"],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {"nbt": "{Tags:[\"shadow.launch\"]}"}
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [0, 0, 1],
+              "coordinate_scale": [1, 1, 1],
+              "magnitude": 3.5
+            },
+            {"type": "minecraft:run_function", "function": "shadow:launched"}
+          ]
+        }
+      }
+    ]
+  }
+}

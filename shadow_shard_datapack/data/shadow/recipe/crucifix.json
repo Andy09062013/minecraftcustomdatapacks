@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GGG",
+    " G "
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:golden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Golden Crucifix",
+        "color": "gold"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Hold it and mobs notice you 2x slower",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:rarity": "rare",
+      "minecraft:custom_data": {
+        "shadow_crucifix": true
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "crucifix"
+        ]
+      },
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+}

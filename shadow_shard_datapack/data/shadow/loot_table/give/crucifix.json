@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Golden Crucifix",
+                  "color": "gold"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Hold it and mobs notice you 2x slower",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "rare",
+                "minecraft:custom_data": {
+                  "shadow_crucifix": true
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "crucifix"
+                  ]
+                },
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

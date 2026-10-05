@@ -1,0 +1,1 @@
+{"criteria":{"used":{"trigger":"minecraft:consume_item","conditions":{"item":{"items":"minecraft:amethyst_shard","predicates":{"minecraft:custom_data":"{shadow_shard:1b}"}}}}},"rewards":{"function":"shadow:start"}}

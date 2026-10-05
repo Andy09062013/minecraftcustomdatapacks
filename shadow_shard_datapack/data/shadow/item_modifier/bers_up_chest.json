@@ -1,0 +1,35 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "shadow:berserker_chest_armor",
+          "amount": 8.5,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "shadow:berserker_chest_tough",
+          "amount": 2.5,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "shadow:berserker_chest_kb",
+          "amount": 0.05,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ],
+      "minecraft:max_damage": 600
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{bers_v:2}"
+  }
+]

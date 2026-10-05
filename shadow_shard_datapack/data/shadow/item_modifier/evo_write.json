@@ -1,0 +1,29 @@
+[
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "shadow:evo"
+    },
+    "ops": [
+      {
+        "source": "p",
+        "target": "evo_p",
+        "op": "replace"
+      },
+      {
+        "source": "r",
+        "target": "evo_r",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": {
+      "type": "minecraft:storage",
+      "storage": "shadow:evo",
+      "path": "frac"
+    }
+  }
+]

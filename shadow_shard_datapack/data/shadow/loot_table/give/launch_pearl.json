@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Launch Pearl",
+                  "color": "dark_purple"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Throw it to get yeeted where ur looking",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "No teleport, no fall damage",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "shadow_launch": true
+                },
+                "minecraft:enchantments": {
+                  "shadow:launch": 1
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:enchantments"
+                  ]
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "launch_pearl"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

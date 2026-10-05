@@ -1,0 +1,1 @@
+{"function":"minecraft:set_components","components":{"minecraft:charged_projectiles":[{"id":"minecraft:arrow","count":1,"components":{"minecraft:custom_data":{"shadow_tnt_ammo":true},"minecraft:item_name":{"text":"TNT Shot","color":"red"}}}]}}

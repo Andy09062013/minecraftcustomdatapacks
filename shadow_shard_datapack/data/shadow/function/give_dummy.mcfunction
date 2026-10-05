@@ -1,0 +1,2 @@
+execute unless items entity @s weapon.mainhand * run return run item replace entity @s weapon.mainhand with minecraft:ender_pearl[custom_data={shadow_launch:1b,shadow_dummy:1b},enchantments={"shadow:launch":1},custom_model_data={strings:["launch_pearl"]}]
+execute unless items entity @s weapon.offhand * run item replace entity @s weapon.offhand with minecraft:ender_pearl[custom_data={shadow_launch:1b,shadow_dummy:1b},enchantments={"shadow:launch":1},custom_model_data={strings:["launch_pearl"]}]

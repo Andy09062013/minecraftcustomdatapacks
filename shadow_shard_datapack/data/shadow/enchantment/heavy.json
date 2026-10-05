@@ -1,0 +1,27 @@
+{
+  "description": {
+    "text": "Heavy"
+  },
+  "supported_items": "minecraft:crossbow",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 40,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:crossbow_charge_time": {
+      "type": "minecraft:add",
+      "value": 3.75
+    }
+  }
+}

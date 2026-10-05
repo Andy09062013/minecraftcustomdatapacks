@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:golden_sword",
+    "minecraft:fire_charge"
+  ],
+  "result": {
+    "id": "minecraft:fire_charge",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Holy Hand Grenade",
+        "color": "gold"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right click to throw",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Golden blast turns weak foes to gold dust",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "text": "Stronger foes get stunned",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "shadow_holy": true
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "holy_grenade"
+        ]
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:consumable": {
+        "consume_seconds": 0.05,
+        "animation": "none",
+        "sound": "minecraft:entity.snowball.throw",
+        "has_consume_particles": false
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 0.5,
+        "cooldown_group": "shadow:grenades"
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "epic"
+    }
+  }
+}

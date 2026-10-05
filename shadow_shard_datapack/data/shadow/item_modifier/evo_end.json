@@ -1,0 +1,1 @@
+{"function": "minecraft:copy_custom_data", "source": {"type": "minecraft:storage", "source": "shadow:evo"}, "ops": [{"source": "end", "target": "evo_end", "op": "replace"}]}

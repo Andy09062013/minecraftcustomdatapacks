@@ -1,0 +1,26 @@
+{
+  "description": {"text": "Life Steal", "color": "dark_red"},
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {"base": 100, "per_level_above_first": 0},
+  "max_cost": {"base": 100, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["mainhand"],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "requirements": {"condition": "minecraft:entity_properties", "entity": "attacker", "predicate": {"flags": {"is_on_ground": false, "is_sprinting": false, "is_flying": false}, "movement": {"fall_distance": {"min": 0.01}}}},
+        "effect": {"type": "minecraft:run_function", "function": "shadow:lifesteal_attacker"}
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "requirements": {"condition": "minecraft:entity_properties", "entity": "attacker", "predicate": {"flags": {"is_on_ground": false, "is_sprinting": false, "is_flying": false}, "movement": {"fall_distance": {"min": 0.01}}}},
+        "effect": {"type": "minecraft:run_function", "function": "shadow:lifesteal_victim"}
+      }
+    ]
+  }
+}

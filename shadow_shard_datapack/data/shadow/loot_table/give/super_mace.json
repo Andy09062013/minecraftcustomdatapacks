@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Super Mace",
+                  "color": "light_purple"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Hit something to fly into the sky",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "and crash down on it",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Breaks after one use",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "shadow_super": true
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "super_mace"
+                  ]
+                },
+                "minecraft:enchantments": {
+                  "shadow:super_slam": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

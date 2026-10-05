@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "shadow:berserker"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "shadow:berserker"
+      }
+    ]
+  }
+}

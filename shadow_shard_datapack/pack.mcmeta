@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Shadow Shard - 20s of invis, speed, jump, resistance, fire res, infinite jump",
+    "pack_format": 57,
+    "supported_formats": [57, 120],
+    "min_format": 57,
+    "max_format": 120
+  }
+}

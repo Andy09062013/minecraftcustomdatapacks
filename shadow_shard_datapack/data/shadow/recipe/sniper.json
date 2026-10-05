@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:crossbow",
+    "minecraft:crossbow",
+    "minecraft:crossbow"
+  ],
+  "result": {
+    "id": "minecraft:crossbow",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Sniper",
+        "color": "aqua"
+      },
+      "minecraft:lore": [
+        {
+          "text": "3x arrow damage",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Dead straight for about 100 blocks",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Arrows only",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "epic",
+      "minecraft:custom_data": {
+        "shadow_sniper": true
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "sniper"
+        ]
+      }
+    }
+  }
+}

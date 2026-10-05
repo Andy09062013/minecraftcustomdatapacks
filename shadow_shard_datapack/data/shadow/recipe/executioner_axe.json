@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AS",
+    " S"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:diamond_axe",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Executioner's Axe",
+        "color": "dark_red"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right click: throw it like a boomerang",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Thrown hits leave the Executioner's Mark",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Executes anything under 15% HP (18% if marked)",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      "minecraft:rarity": "epic",
+      "minecraft:custom_data": {
+        "shadow_exec": true
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "executioner_axe"
+        ]
+      },
+      "minecraft:enchantments": {
+        "shadow:executioner": 1
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments"
+        ]
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 3600,
+        "animation": "none",
+        "sound": "minecraft:intentionally_empty",
+        "has_consume_particles": false
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:base_attack_damage",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:base_attack_speed",
+          "amount": -2.4,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}

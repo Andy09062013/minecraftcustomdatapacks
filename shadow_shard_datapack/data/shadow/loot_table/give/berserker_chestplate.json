@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Berserker Chestplate",
+                  "color": "red"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Better than diamond, beats netherite below half HP",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Full set: survive fatal hits by burning durability",
+                    "color": "dark_red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "shadow_berserk": true,
+                  "bers_v": 2
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "berserker"
+                  ]
+                },
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "shadow:berserker",
+                  "equip_sound": "minecraft:item.armor.equip_iron"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "shadow:berserker_chest_armor",
+                    "amount": 8.5,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "shadow:berserker_chest_tough",
+                    "amount": 2.5,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "shadow:berserker_chest_kb",
+                    "amount": 0.05,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:max_damage": 600
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
