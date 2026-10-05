@@ -81,3 +81,6 @@ execute as @e[type=minecraft:marker,tag=shadow.mbmark] unless function shadow:mb
 scoreboard players add #upd mb.t 1
 execute if score #upd mb.t matches 20.. as @a if function shadow:upd_need run function shadow:upd
 execute if score #upd mb.t matches 20.. run scoreboard players set #upd mb.t 0
+execute if score #run cs.t matches 1.. run function shadow:cs/tick
+execute unless score #run cs.t matches 1.. as @a[tag=cs.in] run function shadow:cs/leave
+execute as @a unless score @s cs.rv matches 1 run function shadow:recipes_unlock

@@ -1,6 +1,9 @@
 loot replace entity @s weapon.mainhand loot shadow:evo/rage
+scoreboard players set #csadd evo.v 0
+function shadow:cs/start
 execute store result score #now evo.v run time query gametime
 scoreboard players add #now evo.v 1200
+scoreboard players operation #now evo.v += #csadd evo.v
 execute store result storage shadow:evo end int 1 run scoreboard players get #now evo.v
 item modify entity @s weapon.mainhand shadow:evo_end
 scoreboard players operation @s evo.end = #now evo.v

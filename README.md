@@ -64,6 +64,16 @@ All custom items use their own item model, so without the resource pack they sho
 
 The Eclipse Sword adds a new enchantment and damage type, so the server needs a restart (not just /reload) the first time.
 
+## Rageblade cutscene
+
+When an Evolving Blade turns into the Rageblade, every online player gets pulled into an 8 second cutscene around the player who got it, then everyone goes back to where they were in their old gamemode. The rage timer gets 8.5 extra seconds so the cutscene doesn't eat it.
+
+Play it yourself with `/function shadow:cutscene/rageblade`.
+
+## Recipe book and item menu
+
+All custom recipes unlock in the recipe book automatically. Datapacks can't add items to the creative menu, so use `/function shadow:menu` for a clickable list of every item.
+
 ## Give commands
 
 ```

@@ -79,3 +79,7 @@ scoreboard objectives add mb dummy
 scoreboard players set #100 mb 100
 scoreboard players set #95 mb 95
 scoreboard players set #2 mb 2
+scoreboard objectives add cs.t dummy
+scoreboard objectives add cs.gm dummy
+scoreboard objectives add cs.rv dummy
+scoreboard players set #60 cs.t 60
