@@ -85,4 +85,3 @@ scoreboard objectives add cs.rv dummy
 scoreboard players set #60 cs.t 60
 scoreboard players set #24000 cs.t 24000
 scoreboard players set #4 cs.t 4
-scoreboard players set #-1 cs.t -1

@@ -9,5 +9,6 @@ item replace entity @e[tag=cs.mq,limit=1] armor.head from entity @s armor.head
 item replace entity @e[tag=cs.mq,limit=1] armor.chest from entity @s armor.chest
 item replace entity @e[tag=cs.mq,limit=1] armor.legs from entity @s armor.legs
 item replace entity @e[tag=cs.mq,limit=1] armor.feet from entity @s armor.feet
+loot replace entity @e[tag=cs.mq,limit=1] weapon.mainhand loot shadow:evo/rage
 kill @e[type=minecraft:armor_stand,tag=cs.actor]
 tag @e[tag=cs.mq] add cs.actor

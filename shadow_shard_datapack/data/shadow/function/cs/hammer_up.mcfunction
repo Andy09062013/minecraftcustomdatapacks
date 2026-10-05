@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:item_display,tag=cs.hammer] run data merge entity @s {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[-0.3007f,0f,0f,0.9537f],right_rotation:[0f,0f,-0.3827f,0.9239f],translation:[-0.35f,1.719f,-0.078f],scale:[0.9f,0.9f,0.9f]}}
