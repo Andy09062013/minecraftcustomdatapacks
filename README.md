@@ -66,7 +66,7 @@ The Eclipse Sword adds a new enchantment and damage type, so the server needs a 
 
 ## Rageblade cutscene
 
-When an Evolving Blade turns into the Rageblade, every online player gets pulled into a 10 second cutscene around the player who got it, then everyone goes back to where they were in their old gamemode. The rage timer gets 10 extra seconds so the cutscene doesn't eat it.
+When an Evolving Blade turns into the Rageblade, every online player gets pulled into a 14 second cutscene on a lava island stage built high above the Nether roof (around x/z 1000016, y 201), starting with the player forging the Rageblade on an anvil, then everyone goes back to where they were in their old gamemode. The rage timer gets 14 extra seconds so the cutscene doesn't eat it.
 
 Play it yourself with `/function shadow:cutscene/rageblade`.
 
