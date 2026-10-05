@@ -1,4 +1,5 @@
 execute if score #run cs.t matches 1.. run return fail
+execute if score #orun orb matches 1.. run return fail
 scoreboard players set #run cs.t 1
 scoreboard players set #t cs.t 0
 scoreboard players set #csadd evo.v 200
