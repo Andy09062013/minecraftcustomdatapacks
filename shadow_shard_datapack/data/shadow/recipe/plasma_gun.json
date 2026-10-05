@@ -1,20 +1,45 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["AAA", "ABA", "AAA"],
-  "key": {"A": "minecraft:amethyst_shard", "B": "minecraft:bow"},
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "B": "minecraft:bow"
+  },
   "result": {
     "id": "minecraft:bow",
     "count": 1,
     "components": {
-      "minecraft:item_name": {"text": "Plasma Gun", "color": "aqua"},
+      "minecraft:item_name": {
+        "text": "Plasma Gun",
+        "color": "aqua"
+      },
       "minecraft:lore": [
-        {"text": "Hold longer for more damage and speed", "color": "gray", "italic": false},
-        {"text": "15s charge: piercing plasma blast", "color": "light_purple", "italic": false}
+        {
+          "text": "Hold longer for more damage and speed",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "15s charge: piercing plasma blast",
+          "color": "light_purple",
+          "italic": false
+        }
       ],
       "minecraft:enchantment_glint_override": true,
       "minecraft:rarity": "epic",
-      "minecraft:custom_data": {"shadow_plasma": true},
-      "minecraft:custom_model_data": {"strings": ["plasma_gun"]}
+      "minecraft:custom_data": {
+        "shadow_plasma": true
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "plasma_gun"
+        ]
+      },
+      "minecraft:item_model": "shadow:custom"
     }
   }
 }

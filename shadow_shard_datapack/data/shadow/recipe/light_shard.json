@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glowstone_dust",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "minecraft:prismarine_crystals",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Light Shard",
+        "color": "#ffe27a"
+      },
+      "minecraft:lore": [
+        {
+          "text": "A Shadow Shard soaked in light",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Craft into the Eclipse Sword",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:rarity": "rare",
+      "minecraft:item_model": "shadow:custom",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "light_shard"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shadow_light_raw": true
+      }
+    }
+  }
+}

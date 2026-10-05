@@ -19,17 +19,17 @@
           "italic": false
         },
         {
-          "text": "Each shot eats 4 arrows",
+          "text": "Each shot eats 2 arrows",
           "color": "gray",
           "italic": false
         },
         {
-          "text": "1.5x Sniper damage, dead straight",
+          "text": "2x Sniper damage, dead straight",
           "color": "red",
           "italic": false
         },
         {
-          "text": "Arrows only",
+          "text": "Arrows or High Caliber Rounds",
           "color": "red",
           "italic": false
         }
@@ -48,7 +48,8 @@
         "hidden_components": [
           "minecraft:enchantments"
         ]
-      }
+      },
+      "minecraft:item_model": "shadow:custom"
     }
   }
 }

@@ -1,0 +1,10 @@
+execute if items entity @s contents minecraft:oak_boat run return run loot replace entity @s contents loot shadow:give/motor_boat/oak
+execute if items entity @s contents minecraft:spruce_boat run return run loot replace entity @s contents loot shadow:give/motor_boat/spruce
+execute if items entity @s contents minecraft:birch_boat run return run loot replace entity @s contents loot shadow:give/motor_boat/birch
+execute if items entity @s contents minecraft:jungle_boat run return run loot replace entity @s contents loot shadow:give/motor_boat/jungle
+execute if items entity @s contents minecraft:acacia_boat run return run loot replace entity @s contents loot shadow:give/motor_boat/acacia
+execute if items entity @s contents minecraft:dark_oak_boat run return run loot replace entity @s contents loot shadow:give/motor_boat/dark_oak
+execute if items entity @s contents minecraft:mangrove_boat run return run loot replace entity @s contents loot shadow:give/motor_boat/mangrove
+execute if items entity @s contents minecraft:cherry_boat run return run loot replace entity @s contents loot shadow:give/motor_boat/cherry
+execute if items entity @s contents minecraft:pale_oak_boat run return run loot replace entity @s contents loot shadow:give/motor_boat/pale_oak
+execute if items entity @s contents minecraft:bamboo_raft run return run loot replace entity @s contents loot shadow:give/motor_boat/bamboo

@@ -22,7 +22,8 @@
         "strings": [
           "explosive_mace"
         ]
-      }
+      },
+      "minecraft:item_model": "shadow:custom"
     }
   }
 }

@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:diamond_sword",
+              "predicates": {
+                "minecraft:custom_data": "{shadow_eclipse:1b}"
+              }
+            }
+          },
+          "flags": {
+            "is_on_ground": false,
+            "is_sprinting": false,
+            "is_flying": false
+          },
+          "movement": {
+            "fall_distance": {
+              "min": 0.01
+            }
+          }
+        },
+        "damage": {
+          "dealt": {
+            "min": 9.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:ecl_hit3"
+  }
+}

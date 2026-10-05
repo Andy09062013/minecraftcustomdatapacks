@@ -42,7 +42,8 @@
                 },
                 "minecraft:enchantments": {
                   "shadow:super_slam": 1
-                }
+                },
+                "minecraft:item_model": "shadow:custom"
               }
             }
           ]

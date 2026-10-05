@@ -29,7 +29,8 @@
                   "strings": [
                     "hungry_crossbow"
                   ]
-                }
+                },
+                "minecraft:item_model": "shadow:custom"
               }
             }
           ]

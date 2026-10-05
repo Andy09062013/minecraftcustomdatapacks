@@ -61,3 +61,21 @@ scoreboard objectives add shadow.lfrom dummy
 scoreboard objectives add shadow.lto dummy
 scoreboard objectives add shadow.lmid dummy
 scoreboard objectives add shadow.nap dummy
+scoreboard objectives add ecl.hit dummy
+scoreboard objectives add ecl.ch dummy
+scoreboard objectives add ecl.vc dummy
+scoreboard objectives add ecl.fl dummy
+scoreboard objectives add ecl.flk dummy
+scoreboard objectives add ecl.use dummy
+scoreboard objectives add ecl.cap dummy
+scoreboard objectives add ecl.by dummy
+scoreboard objectives add ecl.tmp dummy
+scoreboard objectives add ecl.ok dummy
+scoreboard objectives add lsh.ok dummy
+scoreboard players set #20 ecl.tmp 20
+scoreboard objectives add mb.s dummy
+scoreboard objectives add mb.t dummy
+scoreboard objectives add mb dummy
+scoreboard players set #100 mb 100
+scoreboard players set #95 mb 95
+scoreboard players set #2 mb 2

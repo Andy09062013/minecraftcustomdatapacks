@@ -38,7 +38,8 @@
                   "strings": [
                     "letter"
                   ]
-                }
+                },
+                "minecraft:item_model": "shadow:custom"
               }
             }
           ]

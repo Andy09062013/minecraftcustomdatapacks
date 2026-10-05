@@ -1,0 +1,56 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "text": "Eclipse Sword",
+      "color": "#9b4dff"
+    },
+    "minecraft:lore": [
+      {
+        "text": "\ud83c\udf11 Void Form",
+        "color": "#9b4dff",
+        "italic": false
+      },
+      {
+        "text": "Crits add 1 second of Wither",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Every 3rd hit: 1 absorption heart",
+        "color": "light_purple",
+        "italic": false
+      },
+      {
+        "text": "Right click: switch to Light Form",
+        "color": "dark_gray",
+        "italic": false
+      }
+    ],
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "minecraft:base_attack_damage",
+        "amount": 6.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:attack_speed",
+        "id": "minecraft:base_attack_speed",
+        "amount": -2.4,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:custom_data": {
+      "shadow_eclipse": true,
+      "ecl_void": true
+    },
+    "minecraft:custom_model_data": {
+      "strings": [
+        "ecl_void_0"
+      ]
+    }
+  }
+}

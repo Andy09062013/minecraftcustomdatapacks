@@ -1,0 +1,521 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "shadow_shard",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/shadow_shard"
+        }
+      },
+      {
+        "when": "flamethrower",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/flamethrower"
+        }
+      },
+      {
+        "when": "plasma_gun",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "shadow:item/plasma_gun_standby"
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/plasma_gun_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/plasma_gun_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/plasma_gun_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "when": "satchel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/satchel"
+        }
+      },
+      {
+        "when": "satchel_pocket",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/satchel_pocket"
+        }
+      },
+      {
+        "when": "blood_crossbow",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:select",
+            "property": "minecraft:charge_type",
+            "cases": [
+              {
+                "when": "arrow",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/blood_crossbow_arrow"
+                }
+              },
+              {
+                "when": "rocket",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/blood_crossbow_firework"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/blood_crossbow_standby"
+            }
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:crossbow/pull",
+            "entries": [
+              {
+                "threshold": 0.58,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/blood_crossbow_pulling_1"
+                }
+              },
+              {
+                "threshold": 1.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/blood_crossbow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/blood_crossbow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "when": "sniper",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:select",
+            "property": "minecraft:charge_type",
+            "cases": [
+              {
+                "when": "arrow",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/sniper_arrow"
+                }
+              },
+              {
+                "when": "rocket",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/sniper_firework"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/sniper_standby"
+            }
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:crossbow/pull",
+            "entries": [
+              {
+                "threshold": 0.58,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/sniper_pulling_1"
+                }
+              },
+              {
+                "threshold": 1.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/sniper_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/sniper_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "when": "hungry_crossbow",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:select",
+            "property": "minecraft:charge_type",
+            "cases": [
+              {
+                "when": "arrow",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/hungry_crossbow_arrow"
+                }
+              },
+              {
+                "when": "rocket",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/hungry_crossbow_firework"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/hungry_crossbow_standby"
+            }
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:crossbow/pull",
+            "entries": [
+              {
+                "threshold": 0.58,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/hungry_crossbow_pulling_1"
+                }
+              },
+              {
+                "threshold": 1.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/hungry_crossbow_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/hungry_crossbow_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "when": "heavy_rifle",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:select",
+            "property": "minecraft:charge_type",
+            "cases": [
+              {
+                "when": "arrow",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/heavy_rifle_arrow"
+                }
+              },
+              {
+                "when": "rocket",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/heavy_rifle_firework"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/heavy_rifle_standby"
+            }
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:crossbow/pull",
+            "entries": [
+              {
+                "threshold": 0.58,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/heavy_rifle_pulling_1"
+                }
+              },
+              {
+                "threshold": 1.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/heavy_rifle_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/heavy_rifle_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "when": "executioner_axe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/executioner_axe"
+        }
+      },
+      {
+        "when": "napalm_strike",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/napalm_strike"
+        }
+      },
+      {
+        "when": "launch_pearl",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/launch_pearl"
+        }
+      },
+      {
+        "when": "grenade",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/grenade"
+        }
+      },
+      {
+        "when": "holy_grenade",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/holy_grenade"
+        }
+      },
+      {
+        "when": "pipebomb",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/pipebomb"
+        }
+      },
+      {
+        "when": "crucifix",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/crucifix"
+        }
+      },
+      {
+        "when": "satchel_worn",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/satchel_worn"
+        }
+      },
+      {
+        "when": "explosive_mace",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/explosive_mace"
+        }
+      },
+      {
+        "when": "super_mace",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/super_mace"
+        }
+      },
+      {
+        "when": "mallet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/mallet"
+        }
+      },
+      {
+        "when": "rageblade",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/rageblade"
+        }
+      },
+      {
+        "when": "letter_sealed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/letter_sealed"
+        }
+      },
+      {
+        "when": "berserker_heart",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/berserker_heart"
+        }
+      },
+      {
+        "when": "high_caliber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/high_caliber"
+        }
+      },
+      {
+        "when": "frost_staff",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/frost_staff"
+        }
+      },
+      {
+        "when": "letter",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/letter"
+        }
+      },
+      {
+        "when": "letter_open",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/letter_open"
+        }
+      },
+      {
+        "when": "ecl_light_0",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_light_0"
+        }
+      },
+      {
+        "when": "ecl_light_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_light_1"
+        }
+      },
+      {
+        "when": "ecl_light_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_light_2"
+        }
+      },
+      {
+        "when": "ecl_light_3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_light_3"
+        }
+      },
+      {
+        "when": "ecl_light_4",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_light_4"
+        }
+      },
+      {
+        "when": "ecl_light_5",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_light_5"
+        }
+      },
+      {
+        "when": "ecl_void_0",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_void_0"
+        }
+      },
+      {
+        "when": "ecl_void_1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_void_1"
+        }
+      },
+      {
+        "when": "ecl_void_2",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_void_2"
+        }
+      },
+      {
+        "when": "ecl_void_wither",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_void_wither"
+        }
+      },
+      {
+        "when": "ecl_void_heal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/ecl_void_heal"
+        }
+      },
+      {
+        "when": "light_shard",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/light_shard"
+        }
+      },
+      {
+        "when": "void_shard",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/void_shard"
+        }
+      },
+      {
+        "when": "motor_boat",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/motor_boat"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "shadow:item/missing"
+    }
+  }
+}

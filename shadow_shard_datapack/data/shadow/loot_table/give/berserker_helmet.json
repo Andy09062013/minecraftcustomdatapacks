@@ -64,7 +64,8 @@
                     "slot": "head"
                   }
                 ],
-                "minecraft:max_damage": 420
+                "minecraft:max_damage": 420,
+                "minecraft:item_model": "shadow:berserker_helmet"
               }
             }
           ]

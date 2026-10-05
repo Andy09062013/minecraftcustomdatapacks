@@ -35,7 +35,8 @@
                   "strings": [
                     "plasma_gun"
                   ]
-                }
+                },
+                "minecraft:item_model": "shadow:custom"
               }
             }
           ]

@@ -1,20 +1,47 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "ingredients": ["minecraft:mace", "minecraft:amethyst_shard"],
+  "ingredients": [
+    "minecraft:mace",
+    "minecraft:amethyst_shard"
+  ],
   "result": {
     "id": "minecraft:mace",
     "count": 1,
     "components": {
-      "minecraft:item_name": {"text": "Super Mace", "color": "light_purple"},
+      "minecraft:item_name": {
+        "text": "Super Mace",
+        "color": "light_purple"
+      },
       "minecraft:lore": [
-        {"text": "Hit something to fly into the sky", "color": "gray", "italic": false},
-        {"text": "and crash down on it", "color": "gray", "italic": false},
-        {"text": "Breaks after one use", "color": "red", "italic": false}
+        {
+          "text": "Hit something to fly into the sky",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "and crash down on it",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Breaks after one use",
+          "color": "red",
+          "italic": false
+        }
       ],
       "minecraft:rarity": "epic",
-      "minecraft:custom_data": {"shadow_super": true},
-      "minecraft:custom_model_data": {"strings": ["super_mace"]},
-      "minecraft:enchantments": {"shadow:super_slam": 1}
+      "minecraft:custom_data": {
+        "shadow_super": true
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "super_mace"
+        ]
+      },
+      "minecraft:enchantments": {
+        "shadow:super_slam": 1
+      },
+      "minecraft:item_model": "shadow:custom"
     }
   }
 }

@@ -1,0 +1,56 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "text": "Eclipse Sword",
+      "color": "#ffe27a"
+    },
+    "minecraft:lore": [
+      {
+        "text": "\u2600 Light Form",
+        "color": "#ffe27a",
+        "italic": false
+      },
+      {
+        "text": "Hits charge it: weak +\u00bc, full +\u00bd, crit +1 stage",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Stage 5: damage burst + 1.5 absorption hearts",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "Right click: switch to Void Form",
+        "color": "dark_gray",
+        "italic": false
+      }
+    ],
+    "minecraft:attribute_modifiers": [
+      {
+        "type": "minecraft:attack_damage",
+        "id": "minecraft:base_attack_damage",
+        "amount": 6.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "type": "minecraft:attack_speed",
+        "id": "minecraft:base_attack_speed",
+        "amount": -2.4,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "minecraft:custom_data": {
+      "shadow_eclipse": true,
+      "ecl_light": true
+    },
+    "minecraft:custom_model_data": {
+      "strings": [
+        "ecl_light_0"
+      ]
+    }
+  }
+}

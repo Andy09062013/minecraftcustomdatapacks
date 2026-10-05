@@ -39,7 +39,8 @@
         "strings": [
           "sniper"
         ]
-      }
+      },
+      "minecraft:item_model": "shadow:custom"
     }
   }
 }

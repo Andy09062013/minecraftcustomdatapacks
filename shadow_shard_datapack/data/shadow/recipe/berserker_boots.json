@@ -65,7 +65,8 @@
           "slot": "feet"
         }
       ],
-      "minecraft:max_damage": 490
+      "minecraft:max_damage": 490,
+      "minecraft:item_model": "shadow:berserker_boots"
     }
   }
 }

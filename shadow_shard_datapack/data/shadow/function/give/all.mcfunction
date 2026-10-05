@@ -24,3 +24,7 @@ function shadow:give/letter
 function shadow:give/pipebomb
 function shadow:give/satchel
 function shadow:give/napalm_strike
+function shadow:give/light_shard
+function shadow:give/void_shard
+function shadow:give/eclipse_sword
+function shadow:give/motor_boat

@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Void Shard",
+                  "color": "#9b4dff"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "It floated back up from the void",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Craft into the Eclipse Sword",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "void_shard"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_void_shard": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

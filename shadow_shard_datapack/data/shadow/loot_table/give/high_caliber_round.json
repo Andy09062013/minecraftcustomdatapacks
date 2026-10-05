@@ -33,7 +33,8 @@
                   "strings": [
                     "high_caliber"
                   ]
-                }
+                },
+                "minecraft:item_model": "shadow:custom"
               }
             }
           ]

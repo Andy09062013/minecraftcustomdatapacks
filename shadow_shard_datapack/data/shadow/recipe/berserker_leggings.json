@@ -66,7 +66,8 @@
           "slot": "legs"
         }
       ],
-      "minecraft:max_damage": 560
+      "minecraft:max_damage": 560,
+      "minecraft:item_model": "shadow:berserker_leggings"
     }
   }
 }

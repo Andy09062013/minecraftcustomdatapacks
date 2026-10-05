@@ -59,7 +59,8 @@
                       "shadow_napalm_rem": true
                     }
                   }
-                }
+                },
+                "minecraft:item_model": "shadow:custom"
               }
             }
           ]

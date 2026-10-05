@@ -40,7 +40,8 @@
                   "strings": [
                     "blood_crossbow"
                   ]
-                }
+                },
+                "minecraft:item_model": "shadow:custom"
               }
             }
           ]

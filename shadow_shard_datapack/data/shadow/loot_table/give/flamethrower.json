@@ -42,7 +42,8 @@
                   "animation": "none",
                   "sound": "minecraft:block.fire.ambient",
                   "has_consume_particles": false
-                }
+                },
+                "minecraft:item_model": "shadow:custom"
               }
             }
           ]

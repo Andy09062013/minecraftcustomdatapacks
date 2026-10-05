@@ -65,3 +65,16 @@ execute as @e[type=minecraft:block_display,tag=shadow.napmark] run function shad
 execute as @e[tag=shadow.jet] at @s run function shadow:napalm_jet_tick
 execute as @e[type=minecraft:block_display,tag=shadow.napbomb] at @s run function shadow:napalm_bomb_tick
 execute as @e[type=minecraft:block_display,tag=shadow.napfire] at @s run function shadow:napalm_fire_tick
+scoreboard players remove @a[scores={ecl.use=1..}] ecl.use 1
+execute as @a[scores={ecl.hit=1..}] at @s run function shadow:ecl_proc
+scoreboard players set @a ecl.hit 0
+tag @e[tag=ecl.cand] remove ecl.cand
+execute as @a[scores={ecl.fl=1..}] run function shadow:ecl_flash_tick
+execute as @a[scores={ecl.cap=1..}] run function shadow:ecl_cap_tick
+execute as @a if items entity @s container.* *[custom_data~{shadow_light_raw:1b}] run function shadow:light_verify
+execute as @a if items entity @s container.* *[custom_data~{shadow_eclipse_raw:1b}] run function shadow:ecl_verify
+execute as @e[type=minecraft:item] if items entity @s contents *[custom_data~{shadow_shard:1b}] at @s if block ~ ~ ~ minecraft:void_air run function shadow:void_catch
+execute as @e[tag=shadow.motorboat] at @s run function shadow:mb_tick
+execute as @e[type=minecraft:item_display,tag=shadow.mbseat] unless function shadow:mb_has_rider run kill @s
+execute as @e[type=minecraft:item_display,tag=shadow.mbseat] unless function shadow:mb_has_vehicle run kill @s
+execute as @e[type=minecraft:marker,tag=shadow.mbmark] unless function shadow:mb_has_vehicle at @s run function shadow:mb_broken

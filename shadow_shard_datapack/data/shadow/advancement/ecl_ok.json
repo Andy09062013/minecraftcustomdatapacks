@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "shadow:eclipse_sword",
+        "ingredients": [
+          {
+            "items": "minecraft:prismarine_crystals",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_light_shard:1b}"
+            }
+          },
+          {
+            "items": "minecraft:echo_shard",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_void_shard:1b}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:ecl_ok"
+  }
+}

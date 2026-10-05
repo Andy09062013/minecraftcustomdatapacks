@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:diamond_sword",
+              "predicates": {
+                "minecraft:custom_data": "{shadow_eclipse:1b}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:ecl_hit1"
+  }
+}

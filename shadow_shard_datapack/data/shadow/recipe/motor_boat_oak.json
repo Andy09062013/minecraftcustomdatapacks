@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shadow_motor_boat",
+  "pattern": [
+    "R P",
+    "IPP"
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "I": "minecraft:iron_ingot",
+    "P": "minecraft:oak_planks"
+  },
+  "result": {
+    "id": "minecraft:oak_boat",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Motor Boat",
+        "color": "aqua"
+      },
+      "minecraft:lore": [
+        {
+          "text": "2x faster than a normal boat",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "W/S: throttle, A/D: steer",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Only runs on water",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "shadow:custom",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "motor_boat"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shadow_motorboat": true
+      },
+      "minecraft:entity_data": {
+        "id": "minecraft:oak_boat",
+        "Tags": [
+          "shadow.motorboat"
+        ]
+      }
+    }
+  }
+}

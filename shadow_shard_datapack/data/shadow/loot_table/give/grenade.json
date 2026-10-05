@@ -44,7 +44,8 @@
                 "minecraft:use_cooldown": {
                   "seconds": 0.5,
                   "cooldown_group": "shadow:grenades"
-                }
+                },
+                "minecraft:item_model": "shadow:custom"
               }
             }
           ]

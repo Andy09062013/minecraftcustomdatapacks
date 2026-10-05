@@ -41,7 +41,8 @@
         "strings": [
           "launch_pearl"
         ]
-      }
+      },
+      "minecraft:item_model": "shadow:custom"
     }
   }
 }

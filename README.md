@@ -17,7 +17,7 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
 - TNT Crossbow: shoots non griefing TNT from the offhand
 - Blood Crossbow: costs HP to shoot, heals on hit
 - Sniper: 3x damage straight shots
-- Heavy Duty Rifle: made from 2 Snipers, 5 sec reload, 4 arrows per shot, 1.5x Sniper damage
+- Heavy Duty Rifle: made from 2 Snipers, 5 sec reload, 2 arrows per shot, 2x Sniper damage, takes arrows or High Caliber Rounds
 - High Caliber Round: 3x damage arrow with glowing and poison
 - Hungry Crossbow: steals hunger from players
 - Plasma Gun: charge for 15 sec to fire a piercing plasma blast
@@ -32,6 +32,22 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
 - Napalm Strike: walkie talkie. Marks the block you look at (up to 128 blocks), a random F-35, A-10 or Eurofighter Typhoon flies over and drops 7 napalm bombs that leave fire for 8 sec. No block damage, 45 sec cooldown
 - Satchel: bundle plus a 5 slot side pocket
 
+- Light Shard: glowstone dust + Shadow Shard
+- Void Shard: throw a Shadow Shard into the void in any dimension and it floats back into your inventory
+- Eclipse Sword: Light Shard over Void Shard over stick. Right click swaps forms
+  - Light Form (7.5 dmg): hits charge 5 stages (weak hit +1/4, full hit +1/2, crit +1). At stage 5 it bursts for an extra 7.5 damage and gives 1.5 absorption hearts
+  - Void Form (7.25 dmg): crits add 1 sec of Wither, every 3rd hit gives 1 absorption heart
+- Motor Boat: 2x boat speed, no paddles, leaves ripples. Only runs on water (not land or ice). W/S throttle, A/D steer
+
+## Motor Boat recipe
+
+```
+Redstone  (empty)  Planks
+Iron      Planks   Planks
+```
+
+Any wood works and gives that wood's boat.
+
 ## Napalm Strike recipe
 
 ```
@@ -41,6 +57,12 @@ Gunpowder  Letter  Gunpowder
 ```
 
 Any book and quill works in the Letter slot.
+
+## Notes
+
+All custom items use their own item model, so without the resource pack they show as missing textures. The Evolving Blade keeps the vanilla sword looks for each tier.
+
+The Eclipse Sword adds a new enchantment and damage type, so the server needs a restart (not just /reload) the first time.
 
 ## Give commands
 

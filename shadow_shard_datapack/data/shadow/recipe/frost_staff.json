@@ -64,7 +64,8 @@
             "shadow_frost_rem": true
           }
         }
-      }
+      },
+      "minecraft:item_model": "shadow:custom"
     }
   }
 }

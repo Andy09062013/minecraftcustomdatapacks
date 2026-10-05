@@ -66,7 +66,8 @@
           "slot": "chest"
         }
       ],
-      "minecraft:max_damage": 600
+      "minecraft:max_damage": 600,
+      "minecraft:item_model": "shadow:berserker_chestplate"
     }
   }
 }
