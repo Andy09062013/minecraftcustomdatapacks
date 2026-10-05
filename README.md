@@ -29,7 +29,7 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
 - Evolving Blade: wood to stone to iron to diamond to netherite, then Rageblade for 60 sec
 - Executioner's Axe: boomerang throw, Executioner's Mark, executes at 15% (18% if marked)
 - Letter: delivered by a mail bat, can carry an item. A pipebomb in a letter blows a small hole (about 2 blocks) when opened
-- Napalm Strike: walkie talkie. Marks the block you look at (up to 128 blocks), a fighter jet flies over and drops 7 napalm bombs that leave fire for 8 sec. No block damage, 45 sec cooldown
+- Napalm Strike: walkie talkie. Marks the block you look at (up to 128 blocks), a random F-35, A-10 or Eurofighter Typhoon flies over and drops 7 napalm bombs that leave fire for 8 sec. No block damage, 45 sec cooldown
 - Satchel: bundle plus a 5 slot side pocket
 
 ## Napalm Strike recipe
