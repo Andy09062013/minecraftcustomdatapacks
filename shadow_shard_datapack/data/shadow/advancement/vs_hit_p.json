@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:diamond_axe",
+              "predicates": {
+                "minecraft:custom_data": "{shadow_vscythe:1b}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "damage": {
+          "dealt": {
+            "min": 5
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:vs/hit_p"
+  }
+}

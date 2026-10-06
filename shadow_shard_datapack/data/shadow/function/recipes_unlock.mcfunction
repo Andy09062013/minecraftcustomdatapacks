@@ -38,4 +38,5 @@ recipe give @s shadow:satchel
 recipe give @s shadow:shadow_shard
 recipe give @s shadow:sniper
 recipe give @s shadow:super_mace
-scoreboard players set @s cs.rv 3
+recipe give @s shadow:void_scythe
+scoreboard players set @s cs.rv 4

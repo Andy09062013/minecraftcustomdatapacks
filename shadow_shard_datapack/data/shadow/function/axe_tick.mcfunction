@@ -10,7 +10,7 @@ scoreboard players operation #me shadow.id = @s shadow.id
 tag @a remove shadow.axeowner
 execute as @a if score @s shadow.id = #me shadow.id run tag @s add shadow.axeowner
 execute unless entity @a[tag=shadow.axeowner] run return run function shadow:axe_drop
-execute if score @s shadow.axet matches 60.. run return run function shadow:axe_give
+execute if score @s shadow.axet matches 40.. run return run function shadow:axe_give
 execute unless entity @a[tag=shadow.axeowner,distance=..80] run return run function shadow:axe_give
 execute if entity @s[tag=shadow.axeout] run function shadow:axe_out
 execute if entity @s[tag=!shadow.axeout] at @s run function shadow:axe_back

@@ -7,5 +7,6 @@ summon minecraft:item_display ~ ~ ~ {Tags:["shadow.lhead"]}
 tag @a remove shadow.lto
 execute as @a run function shadow:letter_cmp
 kill @e[type=minecraft:item_display,tag=shadow.lhead]
-execute unless entity @a[tag=shadow.lto] run return run function shadow:letter_fail
+execute unless entity @a[tag=shadow.lto] run return run function shadow:mb/offline_send
+scoreboard players operation #lto shadow.ev = @a[tag=shadow.lto,limit=1] shadow.id
 function shadow:letter_send

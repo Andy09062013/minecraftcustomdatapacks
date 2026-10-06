@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Reset every upgrade on this scythe for 15◆? You get back the ","color":"gray"},{"score":{"name":"@s","objective":"vs.t"},"color":"light_purple"},{"text":"◆ you spent. ","color":"gray"},{"text":"[CONFIRM]","color":"red","bold":true,"click_event":{"action":"run_command","command":"/trigger scythe set 8"}}]

@@ -580,6 +580,27 @@
           "type": "minecraft:model",
           "model": "shadow:item/orbital_key"
         }
+      },
+      {
+        "when": "void_scythe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/void_scythe"
+        }
+      },
+      {
+        "when": "void_crystal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/void_crystal"
+        }
+      },
+      {
+        "when": "mailbox",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/mailbox"
+        }
       }
     ],
     "fallback": {

@@ -27,8 +27,9 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
 - Grenade, Pipebomb, Holy Hand Grenade: non griefing
 - Golden Crucifix: mobs notice you 2x slower
 - Evolving Blade: wood to stone to iron to diamond to netherite, then Rageblade for 60 sec
-- Executioner's Axe: boomerang throw (3 hearts, hits each target once per throw), Executioner's Mark, executes at 15% (18% if marked)
-- Letter: delivered by a mail bat, can carry an item. A pipebomb in a letter blows a small hole (about 2 blocks) when opened
+- Executioner's Axe: boomerang throw (3 hearts on the way out and 3 on the way back, always comes back within 2 sec), Executioner's Mark, executes at 15% (18% if marked)
+- Letter: delivered by a mail bat, can carry an item. A pipebomb in a letter blows a small hole (about 2 blocks) when opened. If the player is offline the bat drops it in their Mailbox
+- Mailbox: free every time you sleep in a bed (only one at a time). Right click a block within 25 blocks of your bed to place it. Placing a new one moves your old one. The red flag goes up when there's mail, right click it to take your letters. You get an alert when you join if mail is waiting
 - Napalm Strike: walkie talkie. Marks the block you look at (up to 128 blocks), a random F-35, A-10 or Eurofighter Typhoon flies over and drops 7 napalm bombs that leave fire for 8 sec. No block damage, 45 sec cooldown
 - Satchel: 5 pockets that each hold a full stack. Crouch while holding it to switch pockets
 
@@ -43,6 +44,12 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
   - Light Form: only works during the day, gives Light Arrows. Light beams gather on the bow while drawing. Shoots a straight piercing light shot with Sniper-like damage that bursts like a weaker Holy Hand Grenade
   - Void Form: infinite Void Arrows, dark aura while drawing. Damage x0.75 by day, x1.35 at night, x1.7 on a full moon night. Hits give Wither, block healing and add 10% damage taken for 8 seconds
 - Blunderbuss (menu only, not craftable): a shotgun. Right click fires a spread of rock shrapnel that flies about 20 blocks. Uses 2 blocks per shot: cobblestone or cobbled deepslate fires 12 pellets (60 damage point blank), stone or deepslate fires 6 heavier chunks (66 damage point blank). Damage drops off fast with range. 1.2 second reload
+- Void Scythe: crafted like an axe with 3 Void Shards and 2 sticks. Diamond axe damage, never breaks
+  - Right click: Void Sweep, a wide swing with a bit more damage than a normal hit (1.5 sec cooldown)
+  - Every 2nd hit on a player or 10th hit on a mob (fully charged) gives a Void Crystal. Unspent crystals shatter when you die
+  - Sneak + right click (or `/trigger scythe`): upgrade menu. Damage up to 11 (5 levels), attack speed up to 1.4 (4 levels), Sweep damage and range (5 levels, the last one turns it into a 3 sec Tornado Spin that keeps hitting and speeds you up)
+  - Pick one path: Night Hunter (more damage at night, level 4 lets you jump + right click at night to turn into a bat and fly for 5 sec with no armor) or Seismic Slam (jump + right click to slam down and stun everyone near you, level 4 also sends a stunning shockwave forward)
+  - Maxing everything costs 76 crystals. Resetting costs 15 and gives back everything you spent
 - Motor Boat: 2x boat speed, no paddles, leaves ripples. Only runs on water (not land or ice). W/S throttle, A/D steer
 
 ## Motor Boat recipe

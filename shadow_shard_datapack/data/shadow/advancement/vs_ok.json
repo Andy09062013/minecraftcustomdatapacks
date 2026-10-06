@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "shadow:void_scythe",
+        "ingredients": [
+          {
+            "items": "minecraft:echo_shard",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_void_shard:1b}"
+            }
+          },
+          {
+            "items": "minecraft:echo_shard",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_void_shard:1b}"
+            }
+          },
+          {
+            "items": "minecraft:echo_shard",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_void_shard:1b}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:vs/ok"
+  }
+}

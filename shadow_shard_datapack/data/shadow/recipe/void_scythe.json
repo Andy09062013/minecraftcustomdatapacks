@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VV",
+    "VS",
+    " S"
+  ],
+  "key": {
+    "V": "minecraft:echo_shard",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:diamond_axe",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Void Scythe",
+        "color": "#9b4dff"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Damage 0/5 · Speed 0/4 · Sweep 0/5",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Path: None",
+          "color": "dark_purple",
+          "italic": false
+        },
+        {
+          "text": "Path level 0/4",
+          "color": "dark_purple",
+          "italic": false
+        },
+        {
+          "text": "Right click: Void Sweep",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Jump + right click: path ability",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "Sneak + right click: upgrade menu",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "Hits earn Void Crystals",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:rarity": "epic",
+      "minecraft:item_model": "shadow:custom",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "void_scythe"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shadow_vscythe_raw": true
+      }
+    }
+  }
+}

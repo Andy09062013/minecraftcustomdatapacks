@@ -124,3 +124,36 @@ scoreboard players set #110 cs.t 110
 scoreboard players set #-40 cs.t -40
 scoreboard players set #6 cs.t 6
 scoreboard players set #45 cs.t 45
+scoreboard objectives add vs dummy
+scoreboard objectives add vs.use dummy
+scoreboard objectives add vs.cd dummy
+scoreboard objectives add vs.acd dummy
+scoreboard objectives add vs.msg dummy
+scoreboard objectives add vs.wcd dummy
+scoreboard objectives add vs.ph dummy
+scoreboard objectives add vs.mh dummy
+scoreboard objectives add vs.sw dummy
+scoreboard objectives add vs.st dummy
+scoreboard objectives add vs.spin dummy
+scoreboard objectives add vs.bt dummy
+scoreboard objectives add vs.c dummy
+scoreboard objectives add vs.ok dummy
+scoreboard objectives add vs.d dummy
+scoreboard objectives add vs.s dummy
+scoreboard objectives add vs.w dummy
+scoreboard objectives add vs.p dummy
+scoreboard objectives add vs.l dummy
+scoreboard objectives add vs.t dummy
+scoreboard objectives add vs.dth deathCount
+scoreboard objectives add scythe trigger
+scoreboard players set #2 vs 2
+scoreboard players set #4 vs 4
+scoreboard players set #5 vs 5
+scoreboard players set #8 vs 8
+scoreboard players set #10 vs 10
+scoreboard players set #20 vs 20
+scoreboard objectives add mb dummy
+scoreboard objectives add mb.use dummy
+scoreboard objectives add mb.n dummy
+scoreboard objectives add mb.v dummy
+scoreboard objectives add mb.lv minecraft.custom:minecraft.leave_game

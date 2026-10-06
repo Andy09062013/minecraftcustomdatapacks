@@ -32,3 +32,6 @@ function shadow:give/orbital_strike
 function shadow:give/eclipse_bow
 function shadow:give/blunderbuss
 function shadow:give/orbital_key
+function shadow:give/void_scythe
+function shadow:give/void_crystal
+function shadow:give/mailbox

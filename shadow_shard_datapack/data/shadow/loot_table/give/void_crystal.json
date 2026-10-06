@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:disc_fragment_5",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Void Crystal",
+                  "color": "#9b4dff"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Spend these in the Void Scythe upgrade menu",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Shatters if you die while holding it",
+                    "color": "dark_red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Not a Void Shard",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "void_crystal"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_vcrystal": true,
+                  "shadow_v2": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:vanishing_curse": 1
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:enchantments"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

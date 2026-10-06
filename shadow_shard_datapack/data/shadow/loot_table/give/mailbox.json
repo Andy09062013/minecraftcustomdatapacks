@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Mailbox",
+                  "color": "gold"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Right click a block to place it",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Must be within 25 blocks of your bed",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mail bats drop letters here while you're offline",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "You only get one. Placing a new one moves it",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "mailbox"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_mailbox": true,
+                  "shadow_v2": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 100000,
+                  "animation": "none",
+                  "sound": "minecraft:intentionally_empty",
+                  "has_consume_particles": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:block_display,tag=mb.pole,distance=..1.5] if score @s shadow.id = #me mb run data merge entity @s {start_interpolation:0,transformation:{translation:[0.21f,1.15f,-0.32f],scale:[0.04f,0.04f,0.4f]}}
+execute as @e[type=minecraft:block_display,tag=mb.plate,distance=..1.5] if score @s shadow.id = #me mb run data merge entity @s {start_interpolation:0,transformation:{translation:[0.21f,1.04f,0.06f],scale:[0.04f,0.15f,0.2f]}}

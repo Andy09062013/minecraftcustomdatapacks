@@ -1,4 +1,4 @@
-scoreboard players set @s shadow.axecd 60
+scoreboard players set @s shadow.axecd 10
 scoreboard players operation #eid shadow.ev = #me shadow.id
 tag @a[tag=shadow.axeowner] add shadow.eatk
 # weak hit, the throw is mostly for marking
