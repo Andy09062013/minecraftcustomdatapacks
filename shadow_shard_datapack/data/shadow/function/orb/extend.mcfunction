@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:block_display,tag=orb.barrel] run data merge entity @s {start_interpolation:0,interpolation_duration:20,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-1.8f,-20f,-1.8f],scale:[3.6f,17f,3.6f]}}
+execute as @e[type=minecraft:block_display,tag=orb.barrel] run data merge entity @s {start_interpolation:0,interpolation_duration:20,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-2.7f,-30.0f,-2.7f],scale:[5.4f,25.5f,5.4f]}}

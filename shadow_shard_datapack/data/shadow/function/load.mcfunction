@@ -93,3 +93,4 @@ scoreboard players set #2 orb 2
 scoreboard players set #3 orb 3
 scoreboard players set #20 orb 20
 scoreboard players set #16 orb 16
+scoreboard players set #10 orb 10
