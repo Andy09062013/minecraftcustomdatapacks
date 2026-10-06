@@ -21,6 +21,11 @@
                     "italic": false
                   },
                   {
+                    "text": "Crouch + right click: strike your own position",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
                     "text": "Hyper death beam, 48 block blast radius",
                     "color": "aqua",
                     "italic": false
