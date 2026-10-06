@@ -15,6 +15,7 @@ execute if score #ot orb matches 200..210 run particle minecraft:end_rod ~ ~50 ~
 execute if score #ot orb matches 210 run function shadow:orb/blast_spawn
 execute if score #ot orb matches 211 run function shadow:orb/blast_grow
 execute if score #ot orb matches 210 run function shadow:orb/impact
+execute if score #ot orb matches 212 run function shadow:orb/fire
 execute if score #ot orb matches 226..316 run function shadow:orb/dot_try
 execute if score #ot orb matches 210..245 run function shadow:orb/wave
 execute if score #ot orb matches 300 run function shadow:orb/blast_fade
