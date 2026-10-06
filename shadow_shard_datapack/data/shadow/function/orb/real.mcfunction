@@ -23,7 +23,7 @@ execute if score #ot orb matches 210 run function shadow:orb/impact
 execute if score #ot orb matches 210 run function shadow:orb/disc_spawn
 execute if score #ot orb matches 211 run function shadow:orb/disc_grow
 execute if score #ot orb matches 226 run function shadow:orb/disc_fade
-execute if score #ot orb matches 226..316 run function shadow:orb/dot_try
+execute if score #ot orb matches 228..318 run function shadow:orb/dot_try
 execute if score #ot orb matches 226 unless score #nogrief orb matches 1 run function shadow:orb/crater/l0
 execute if score #ot orb matches 227 unless score #nogrief orb matches 1 run function shadow:orb/crater/l1
 execute if score #ot orb matches 228 unless score #nogrief orb matches 1 run function shadow:orb/crater/l2
