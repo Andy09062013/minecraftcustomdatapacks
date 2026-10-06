@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "minecraft:crossbow",
-    "minecraft:crossbow"
+    "minecraft:bow",
+    "minecraft:bow"
   ],
   "result": {
-    "id": "minecraft:crossbow",
+    "id": "minecraft:bow",
     "count": 1,
     "components": {
       "minecraft:item_name": {
@@ -14,7 +14,7 @@
       },
       "minecraft:lore": [
         {
-          "text": "5 second reload",
+          "text": "5 second reload after each shot",
           "color": "gray",
           "italic": false
         },
@@ -42,11 +42,6 @@
       "minecraft:custom_model_data": {
         "strings": [
           "heavy_rifle"
-        ]
-      },
-      "minecraft:tooltip_display": {
-        "hidden_components": [
-          "minecraft:enchantments"
         ]
       },
       "minecraft:item_model": "shadow:custom"

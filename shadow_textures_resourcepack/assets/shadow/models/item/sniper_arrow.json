@@ -2,41 +2,5 @@
   "parent": "minecraft:item/bow",
   "textures": {
     "layer0": "shadow:item/sniper_arrow"
-  },
-  "display": {
-    "firstperson_righthand": {
-      "rotation": [
-        175.53,
-        -24.32,
-        -177.68
-      ],
-      "translation": [
-        1.784,
-        4.939,
-        8.477
-      ],
-      "scale": [
-        0.68,
-        0.68,
-        0.68
-      ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [
-        -4.47,
-        24.32,
-        -2.32
-      ],
-      "translation": [
-        1.784,
-        4.939,
-        8.477
-      ],
-      "scale": [
-        0.68,
-        0.68,
-        0.68
-      ]
-    }
   }
 }

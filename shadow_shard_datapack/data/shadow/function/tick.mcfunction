@@ -97,3 +97,7 @@ execute as @a[scores={ebow.u=1..}] unless score @s ebow.f matches 1 run function
 scoreboard players set @a ebow.f 0
 execute as @a[tag=shadow.blb_restore] run function shadow:blb/restore
 execute as @e[type=minecraft:item_display,tag=blb.p] at @s run function shadow:blb/tick
+execute as @a if items entity @s container.* minecraft:crossbow[custom_data~{shadow_sniper:1b}] run function shadow:gunfix
+execute as @a if items entity @s container.* minecraft:crossbow[custom_data~{shadow_heavy:1b}] run function shadow:gunfix
+execute as @a if items entity @s weapon.offhand minecraft:crossbow[custom_data~{shadow_sniper:1b}] run function shadow:gunfix
+execute as @a if items entity @s weapon.offhand minecraft:crossbow[custom_data~{shadow_heavy:1b}] run function shadow:gunfix

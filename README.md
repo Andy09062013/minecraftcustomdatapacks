@@ -17,7 +17,7 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
 - TNT Crossbow: shoots non griefing TNT from the offhand
 - Blood Crossbow: costs HP to shoot, heals on hit
 - Sniper: 3x damage straight shots
-- Heavy Duty Rifle: made from 2 Snipers, 5 sec reload, 2 arrows per shot, 2x Sniper damage, takes arrows or High Caliber Rounds
+- Heavy Duty Rifle: made from 2 Snipers (both are bows now), 5 sec reload after each shot, 2 arrows per shot, 2x Sniper damage, takes arrows or High Caliber Rounds
 - High Caliber Round: 3x damage arrow with glowing and poison
 - Hungry Crossbow: steals hunger from players
 - Plasma Gun: charge for 15 sec to fire a piercing plasma blast

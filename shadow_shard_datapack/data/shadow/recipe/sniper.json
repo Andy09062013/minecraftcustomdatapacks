@@ -6,7 +6,7 @@
     "minecraft:crossbow"
   ],
   "result": {
-    "id": "minecraft:crossbow",
+    "id": "minecraft:bow",
     "count": 1,
     "components": {
       "minecraft:item_name": {

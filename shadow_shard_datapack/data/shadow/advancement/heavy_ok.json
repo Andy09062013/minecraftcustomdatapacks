@@ -6,13 +6,13 @@
         "recipe_id": "shadow:heavy_rifle",
         "ingredients": [
           {
-            "items": "minecraft:crossbow",
+            "items": "minecraft:bow",
             "predicates": {
               "minecraft:custom_data": "{shadow_sniper:1b}"
             }
           },
           {
-            "items": "minecraft:crossbow",
+            "items": "minecraft:bow",
             "predicates": {
               "minecraft:custom_data": "{shadow_sniper:1b}"
             }

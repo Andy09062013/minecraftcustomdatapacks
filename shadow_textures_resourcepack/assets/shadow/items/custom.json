@@ -129,42 +129,23 @@
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
           "on_false": {
-            "type": "minecraft:select",
-            "property": "minecraft:charge_type",
-            "cases": [
-              {
-                "when": "arrow",
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "shadow:item/sniper_arrow"
-                }
-              },
-              {
-                "when": "rocket",
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "shadow:item/sniper_firework"
-                }
-              }
-            ],
-            "fallback": {
-              "type": "minecraft:model",
-              "model": "shadow:item/sniper_standby"
-            }
+            "type": "minecraft:model",
+            "model": "shadow:item/sniper_standby"
           },
           "on_true": {
             "type": "minecraft:range_dispatch",
-            "property": "minecraft:crossbow/pull",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
             "entries": [
               {
-                "threshold": 0.58,
+                "threshold": 0.65,
                 "model": {
                   "type": "minecraft:model",
                   "model": "shadow:item/sniper_pulling_1"
                 }
               },
               {
-                "threshold": 1.0,
+                "threshold": 0.9,
                 "model": {
                   "type": "minecraft:model",
                   "model": "shadow:item/sniper_pulling_2"
@@ -239,42 +220,23 @@
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
           "on_false": {
-            "type": "minecraft:select",
-            "property": "minecraft:charge_type",
-            "cases": [
-              {
-                "when": "arrow",
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "shadow:item/heavy_rifle_arrow"
-                }
-              },
-              {
-                "when": "rocket",
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "shadow:item/heavy_rifle_firework"
-                }
-              }
-            ],
-            "fallback": {
-              "type": "minecraft:model",
-              "model": "shadow:item/heavy_rifle_standby"
-            }
+            "type": "minecraft:model",
+            "model": "shadow:item/heavy_rifle_standby"
           },
           "on_true": {
             "type": "minecraft:range_dispatch",
-            "property": "minecraft:crossbow/pull",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
             "entries": [
               {
-                "threshold": 0.58,
+                "threshold": 0.65,
                 "model": {
                   "type": "minecraft:model",
                   "model": "shadow:item/heavy_rifle_pulling_1"
                 }
               },
               {
-                "threshold": 1.0,
+                "threshold": 0.9,
                 "model": {
                   "type": "minecraft:model",
                   "model": "shadow:item/heavy_rifle_pulling_2"

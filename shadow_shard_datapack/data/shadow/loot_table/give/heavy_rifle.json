@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:crossbow",
+          "name": "minecraft:bow",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -16,7 +16,7 @@
                 },
                 "minecraft:lore": [
                   {
-                    "text": "5 second reload",
+                    "text": "5 second reload after each shot",
                     "color": "gray",
                     "italic": false
                   },
@@ -44,14 +44,6 @@
                 "minecraft:custom_model_data": {
                   "strings": [
                     "heavy_rifle"
-                  ]
-                },
-                "minecraft:enchantments": {
-                  "shadow:heavy": 1
-                },
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:enchantments"
                   ]
                 },
                 "minecraft:item_model": "shadow:custom"
