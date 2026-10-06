@@ -1,0 +1,41 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "text": "Eclipse Bow",
+      "color": "#9b4dff"
+    },
+    "minecraft:lore": [
+      {
+        "text": "\ud83c\udf11 Void Form",
+        "color": "#9b4dff",
+        "italic": false
+      },
+      {
+        "text": "Infinite Void Arrows. Weaker by day, stronger at night, strongest at full moon",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Hits: Wither, no healing and +10% damage taken for 8s",
+        "color": "light_purple",
+        "italic": false
+      },
+      {
+        "text": "Tap right click: switch to Light Form",
+        "color": "dark_gray",
+        "italic": false
+      }
+    ],
+    "minecraft:custom_data": {
+      "shadow_ebow": true,
+      "ebow_void": true,
+      "shadow_v2": true
+    },
+    "minecraft:custom_model_data": {
+      "strings": [
+        "ebow_void"
+      ]
+    }
+  }
+}

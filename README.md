@@ -38,6 +38,9 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
   - Light Form (7.5 dmg): hits charge 5 stages (weak hit +1/4, full hit +1/2, crit +1). At stage 5 it bursts for an extra 7.5 damage and gives 1.5 absorption hearts
   - Void Form (7.25 dmg): crits add 1 sec of Wither, every 3rd hit gives 1 absorption heart
 - Orbital Strike: 4 Napalm Strikes crafted together. Single use. Marks the block you look at (up to 256 blocks). Everyone online watches an 11 second cutscene: a giant orbital cannon appears just below the clouds (around y 180) above the target, unfolds, charges for 7 seconds with a glowing charge bar on its barrel, then fires a beam all the way down. Everyone is sent back as the white light explosion hits. The blast covers a 50x50 area and deals 500 damage over 5 seconds, then leaves fake fire over the whole area like the Napalm Strike. No block damage
+- Eclipse Bow (menu only, not craftable). Tap right click to switch forms, hold to draw
+  - Light Form: only works during the day, gives Light Arrows. Light beams gather on the bow while drawing. Shoots a straight piercing light shot with Sniper-like damage that bursts like a weaker Holy Hand Grenade
+  - Void Form: infinite Void Arrows, dark aura while drawing. Damage x0.75 by day, x1.35 at night, x1.7 on a full moon night. Hits give Wither, block healing and add 10% damage taken for 8 seconds
 - Motor Boat: 2x boat speed, no paddles, leaves ripples. Only runs on water (not land or ice). W/S throttle, A/D steer
 
 ## Motor Boat recipe
@@ -63,7 +66,7 @@ Any book and quill works in the Letter slot.
 
 All custom items use their own item model, so without the resource pack they show as missing textures. The Evolving Blade keeps the vanilla sword looks for each tier. Old custom items in player inventories and ender chests update to the new models (and the new Heavy Duty Rifle lore) automatically within a second.
 
-The Eclipse Sword adds a new enchantment and damage type, so the server needs a restart (not just /reload) the first time.
+The Eclipse Sword and Eclipse Bow add new enchantments and damage types, so the server needs a restart (not just /reload) the first time.
 
 ## Rageblade cutscene
 

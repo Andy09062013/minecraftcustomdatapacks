@@ -1,4 +1,6 @@
 {
   "death.attack.shadow.eclipse": "%1$s was burned away by an eclipse",
-  "death.attack.shadow.eclipse.player": "%1$s was burned away by %2$s's Eclipse Sword"
+  "death.attack.shadow.eclipse.player": "%1$s was burned away by %2$s's Eclipse Sword",
+  "death.attack.shadow.void_rot": "%1$s rotted away in the void",
+  "death.attack.shadow.void_rot.player": "%1$s rotted away in the void because of %2$s"
 }

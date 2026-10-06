@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Light Arrow",
+                  "color": "#ffe27a"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Only works with the Eclipse Bow",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "light_arrow"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_ebow_ammo": true,
+                  "ebow_light_ammo": true
+                },
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

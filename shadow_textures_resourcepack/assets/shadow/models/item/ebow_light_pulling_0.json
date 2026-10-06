@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "shadow:item/ebow_light_pulling_0"
+  }
+}

@@ -94,3 +94,9 @@ scoreboard players set #3 orb 3
 scoreboard players set #20 orb 20
 scoreboard players set #16 orb 16
 scoreboard players set #10 orb 10
+scoreboard objectives add ebow.hp dummy
+scoreboard objectives add ebow.mk dummy
+scoreboard objectives add ebow.t dummy
+scoreboard players set #5 ebow.t 5
+scoreboard objectives add ebow.u dummy
+scoreboard objectives add ebow.f dummy

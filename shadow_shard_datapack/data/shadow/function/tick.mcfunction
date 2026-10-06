@@ -87,3 +87,11 @@ execute as @a unless score @s cs.rv matches 2 run function shadow:recipes_unlock
 execute if score #orun orb matches 1.. run function shadow:orb/tick
 execute unless score #orun orb matches 1.. as @a[tag=orb.in] run function shadow:orb/leave
 execute as @a if items entity @s container.* *[custom_data~{shadow_orbital_raw:1b}] run function shadow:orb/verify
+execute as @a if items entity @s weapon.mainhand *[custom_data~{shadow_ebow:1b}] at @s run function shadow:ebow/hold
+execute as @a unless items entity @s weapon.mainhand *[custom_data~{shadow_ebow:1b}] if items entity @s container.* *[custom_data~{shadow_ebow_ammo:1b}] run clear @s *[custom_data~{shadow_ebow_ammo:1b}]
+execute as @a unless items entity @s weapon.mainhand *[custom_data~{shadow_ebow:1b}] if items entity @s weapon.offhand *[custom_data~{shadow_ebow_ammo:1b}] run item replace entity @s weapon.offhand with minecraft:air
+execute as @e[type=minecraft:block_display,tag=shadow.lbowvis] at @s run function shadow:ebow/ltrack
+execute as @e[type=minecraft:arrow,tag=shadow.vbow] at @s run function shadow:ebow/vtrail
+execute as @e[scores={ebow.mk=1..}] at @s run function shadow:ebow/mark_tick
+execute as @a[scores={ebow.u=1..}] unless score @s ebow.f matches 1 run function shadow:ebow/release
+scoreboard players set @a ebow.f 0

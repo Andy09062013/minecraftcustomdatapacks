@@ -1,0 +1,41 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "text": "Eclipse Bow",
+      "color": "#ffe27a"
+    },
+    "minecraft:lore": [
+      {
+        "text": "\u2600 Light Form",
+        "color": "#ffe27a",
+        "italic": false
+      },
+      {
+        "text": "Only works during the day, gives Light Arrows",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Straight piercing light shot that bursts like a Holy Hand Grenade",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "Tap right click: switch to Void Form",
+        "color": "dark_gray",
+        "italic": false
+      }
+    ],
+    "minecraft:custom_data": {
+      "shadow_ebow": true,
+      "ebow_light": true,
+      "shadow_v2": true
+    },
+    "minecraft:custom_model_data": {
+      "strings": [
+        "ebow_light"
+      ]
+    }
+  }
+}

@@ -518,6 +518,92 @@
           "type": "minecraft:model",
           "model": "shadow:item/orbital_strike"
         }
+      },
+      {
+        "when": "ebow_light",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "shadow:item/ebow_light_standby"
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/ebow_light_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/ebow_light_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/ebow_light_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "when": "ebow_void",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "shadow:item/ebow_void_standby"
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "entries": [
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/ebow_void_pulling_1"
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "shadow:item/ebow_void_pulling_2"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "shadow:item/ebow_void_pulling_0"
+            }
+          }
+        }
+      },
+      {
+        "when": "light_arrow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/light_arrow"
+        }
+      },
+      {
+        "when": "void_arrow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/void_arrow"
+        }
       }
     ],
     "fallback": {
