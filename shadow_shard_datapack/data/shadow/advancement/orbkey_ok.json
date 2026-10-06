@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "shadow:orbital_key",
+        "ingredients": [
+          {
+            "items": "minecraft:echo_shard",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_napalm:1b}"
+            }
+          },
+          {
+            "items": "minecraft:echo_shard",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_napalm:1b}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:orb/key_ok"
+  }
+}

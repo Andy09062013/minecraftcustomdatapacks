@@ -37,7 +37,8 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
 - Eclipse Sword: Light Shard over Void Shard over stick. Right click swaps forms
   - Light Form (7.5 dmg): hits charge 5 stages (weak hit +1/4, full hit +1/2, crit +1). At stage 5 it bursts for an extra 7.5 damage and gives 1.5 absorption hearts
   - Void Form (7.25 dmg): crits add 1 sec of Wither, every 3rd hit gives 1 absorption heart
-- Orbital Strike: 4 Napalm Strikes crafted together. Single use. Marks the block you look at (up to 256 blocks). Everyone online watches an 11 second cutscene: a giant orbital cannon appears just below the clouds (around y 180) above the target, unfolds, charges for 7 seconds with a glowing charge bar on its barrel, then fires a beam all the way down. Everyone is sent back as the white light explosion hits. The blast covers a 50x50 area and deals 500 damage over 5 seconds, then leaves fake fire over the whole area like the Napalm Strike. No block damage
+- Orbital Strike Key: 2 Napalm Strikes + iron ingot
+- Orbital Strike: 9 Orbital Strike Keys in a 3x3. Single use. Marks the block you look at (up to 256 blocks), or crouch to target yourself. Everyone online watches an 11 second cutscene: a giant orbital cannon drops in from above the clouds with escort drones, unfolds, charges for 7 seconds with a glowing charge bar, lightning arcs and a countdown, then fires a beam all the way down. Everyone is sent back as the white light explosion hits. The blast covers a 50x50 area, deals 500 damage over 5 seconds, digs a 50 block wide crater 14 deep, scatters fire, magma and lava across the crater floor, and throws up a mushroom cloud. The cannon then flies back up and warps out
 - Eclipse Bow (menu only, not craftable). Tap right click to switch forms, hold to draw
   - Light Form: only works during the day, gives Light Arrows. Light beams gather on the bow while drawing. Shoots a straight piercing light shot with Sniper-like damage that bursts like a weaker Holy Hand Grenade
   - Void Form: infinite Void Arrows, dark aura while drawing. Damage x0.75 by day, x1.35 at night, x1.7 on a full moon night. Hits give Wither, block healing and add 10% damage taken for 8 seconds
@@ -71,7 +72,7 @@ The Eclipse Sword, Eclipse Bow and Blunderbuss add new enchantments and damage t
 
 ## Rageblade cutscene
 
-When an Evolving Blade turns into the Rageblade, every online player gets pulled into a 10 second cutscene around the player who got it, then everyone goes back to where they were in their old gamemode. The rage timer gets 10 extra seconds so the cutscene doesn't eat it.
+When an Evolving Blade turns into the Rageblade, every online player gets pulled into a 13 second cutscene around the player who got it, then everyone goes back to where they were in their old gamemode. The rage timer gets 13 extra seconds so the cutscene doesn't eat it.
 
 Play it yourself with `/function shadow:cutscene/rageblade`.
 

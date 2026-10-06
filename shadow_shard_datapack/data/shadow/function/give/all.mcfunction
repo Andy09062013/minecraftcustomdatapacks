@@ -31,3 +31,4 @@ function shadow:give/motor_boat
 function shadow:give/orbital_strike
 function shadow:give/eclipse_bow
 function shadow:give/blunderbuss
+function shadow:give/orbital_key

@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Orbital Strike Key",
+                  "color": "#bfe9ff"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "One of nine launch keys",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Craft 9 into an Orbital Strike",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "orbital_key"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_orbkey": true,
+                  "shadow_v2": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

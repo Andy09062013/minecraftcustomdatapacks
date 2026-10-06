@@ -1,11 +1,5 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    "minecraft:echo_shard",
-    "minecraft:echo_shard",
-    "minecraft:echo_shard",
-    "minecraft:echo_shard"
-  ],
+  "type": "minecraft:crafting_shaped",
   "result": {
     "id": "minecraft:echo_shard",
     "count": 1,
@@ -26,12 +20,12 @@
           "italic": false
         },
         {
-          "text": "Hyper death beam, 48 block blast radius",
+          "text": "Hyper death beam, 50x50 crater, 500 damage over 5s",
           "color": "aqua",
           "italic": false
         },
         {
-          "text": "Single use. Doesn't break blocks",
+          "text": "Single use. Breaks blocks and leaves fire",
           "color": "dark_gray",
           "italic": false
         }
@@ -48,5 +42,13 @@
         "shadow_orbital_raw": true
       }
     }
+  },
+  "pattern": [
+    "KKK",
+    "KKK",
+    "KKK"
+  ],
+  "key": {
+    "K": "minecraft:trial_key"
   }
 }

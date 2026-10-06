@@ -2,9 +2,9 @@ execute if score #run cs.t matches 1.. run return fail
 execute if score #orun orb matches 1.. run return fail
 scoreboard players set #run cs.t 1
 scoreboard players set #t cs.t 0
-scoreboard players set #csadd evo.v 200
-scoreboard players set #r cs.t 1200
-scoreboard players set #h cs.t 600
+scoreboard players set #csadd evo.v 262
+scoreboard players set #r cs.t 9000
+scoreboard players set #h cs.t 4500
 data modify storage shadow:cs cam set value {r:12.0d,h:6.0d,jx:0.0d,jy:0.0d,jz:0.0d}
 tag @s add cs.hero
 execute rotated ~ 0 run summon minecraft:marker ~ ~ ~ {Tags:["cs.e","cs.anchor"]}
@@ -17,6 +17,9 @@ item replace entity @e[type=minecraft:armor_stand,tag=cs.actor,limit=1] armor.le
 item replace entity @e[type=minecraft:armor_stand,tag=cs.actor,limit=1] armor.feet from entity @s armor.feet
 loot replace entity @e[type=minecraft:armor_stand,tag=cs.actor,limit=1] weapon.mainhand loot shadow:evo/rage
 function shadow:cs/mannequin
+execute store result score #yaw0 cs.t run data get entity @e[type=minecraft:marker,tag=cs.anchor,limit=1] Rotation[0]
+execute as @e[type=minecraft:marker,tag=cs.anchor,limit=1] at @s positioned ^ ^70 ^120 run function shadow:cs/moon_spawn
+execute as @e[type=minecraft:marker,tag=cs.anchor,limit=1] at @s run function shadow:cs/rune_spawn
 summon minecraft:item_display ~ ~6 ~12 {Tags:["cs.e","cs.cam"],teleport_duration:2}
 execute as @a run function shadow:cs/enter
 execute store result score #day cs.t run time query daytime

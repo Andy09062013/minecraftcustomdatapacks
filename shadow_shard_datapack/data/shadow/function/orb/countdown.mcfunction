@@ -1,0 +1,9 @@
+execute if score #ot orb matches 100 run title @a[tag=orb.in] title {"text":"5","color":"aqua","bold":true}
+execute if score #ot orb matches 120 run title @a[tag=orb.in] title {"text":"4","color":"aqua","bold":true}
+execute if score #ot orb matches 140 run title @a[tag=orb.in] title {"text":"3","color":"yellow","bold":true}
+execute if score #ot orb matches 160 run title @a[tag=orb.in] title {"text":"2","color":"gold","bold":true}
+execute if score #ot orb matches 180 run title @a[tag=orb.in] title {"text":"1","color":"red","bold":true}
+execute if score #ot orb matches 100 run title @a[tag=orb.in] times 0 15 5
+execute if score #ot orb matches 100 run title @a[tag=orb.in] subtitle {"text":"CHARGING","color":"gray"}
+execute if score #ot orb matches 100..180 run playsound minecraft:block.note_block.bass master @a[tag=orb.in] ~ ~ ~ 6 0.5
+execute if score #ot orb matches 100..180 run playsound minecraft:entity.warden.heartbeat master @a[tag=orb.in] ~ ~ ~ 6 0.8

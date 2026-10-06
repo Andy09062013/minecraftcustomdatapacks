@@ -107,3 +107,20 @@ scoreboard objectives add blb dummy
 scoreboard players set #36 blb 36
 scoreboard players set #40 blb 40
 scoreboard players set #1600 blb 1600
+scoreboard objectives add orb.kok dummy
+scoreboard players set #5 orb 5
+scoreboard players set #8 orb 8
+scoreboard players set #7 orb 7
+scoreboard players set #-8 orb -8
+scoreboard players set #6 orb 6
+scoreboard objectives add orb.a dummy
+scoreboard players set #360 orb 360
+scoreboard players set #-32 orb -32
+scoreboard players set #-44 orb -44
+scoreboard objectives add cs.a dummy
+scoreboard players set #360 cs.t 360
+scoreboard players set #9 cs.t 9
+scoreboard players set #110 cs.t 110
+scoreboard players set #-40 cs.t -40
+scoreboard players set #6 cs.t 6
+scoreboard players set #45 cs.t 45

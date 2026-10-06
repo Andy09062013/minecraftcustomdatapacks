@@ -1,0 +1,2 @@
+$execute as @e[type=minecraft:block_display,tag=orb.retA] run data merge entity @s {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[0.0f,0.7071f,0.0f,-0.7071f],right_rotation:[0f,0f,0f,1f],translation:[-$(ah)f,0f,-$(ah)f],scale:[$(a)f,0.15f,$(a)f]}}
+$execute as @e[type=minecraft:block_display,tag=orb.retB] run data merge entity @s {start_interpolation:0,interpolation_duration:5,transformation:{left_rotation:[-0.0f,-0.7071f,-0.0f,-0.7071f],right_rotation:[0f,0f,0f,1f],translation:[-$(bh)f,0f,-$(bh)f],scale:[$(b)f,0.15f,$(b)f]}}

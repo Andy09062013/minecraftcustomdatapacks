@@ -30,6 +30,7 @@ recipe give @s shadow:motor_boat_oak
 recipe give @s shadow:motor_boat_pale_oak
 recipe give @s shadow:motor_boat_spruce
 recipe give @s shadow:napalm_strike
+recipe give @s shadow:orbital_key
 recipe give @s shadow:orbital_strike
 recipe give @s shadow:pipebomb
 recipe give @s shadow:plasma_gun
@@ -37,4 +38,4 @@ recipe give @s shadow:satchel
 recipe give @s shadow:shadow_shard
 recipe give @s shadow:sniper
 recipe give @s shadow:super_mace
-scoreboard players set @s cs.rv 2
+scoreboard players set @s cs.rv 3

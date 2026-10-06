@@ -573,6 +573,13 @@
           "type": "minecraft:model",
           "model": "shadow:item/blunderbuss"
         }
+      },
+      {
+        "when": "orbital_key",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/orbital_key"
+        }
       }
     ],
     "fallback": {

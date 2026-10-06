@@ -17,6 +17,16 @@ execute if score #ot orb matches 200..209 as @e[type=minecraft:marker,tag=orb.tg
 execute if score #ot orb matches 200..209 as @e[type=minecraft:item_display,tag=orb.cam] at @s run function shadow:orb/shake_small
 execute if score #ot orb matches 210..225 as @e[type=minecraft:marker,tag=orb.tgt,limit=1] at @s positioned ~32 ~18 ~32 run tp @e[type=minecraft:item_display,tag=orb.cam,limit=1] ~ ~ ~ facing entity @s feet
 execute if score #ot orb matches 210..225 as @e[type=minecraft:item_display,tag=orb.cam] at @s run function shadow:orb/shake
+# arrival from above the clouds, escort drones, charge arcs, countdown
+execute if score #ot orb matches 1..40 run function shadow:orb/descend
+execute if score #ot orb matches 1 run playsound minecraft:entity.ender_dragon.flap master @a[tag=orb.in] ~ ~ ~ 6 0.5
+execute if score #ot orb matches 1 run playsound minecraft:item.elytra.flying master @a[tag=orb.in] ~ ~ ~ 6 0.6
+execute if score #ot orb matches 40 run playsound minecraft:block.anvil.land master @a[tag=orb.in] ~ ~ ~ 6 0.5
+execute if score #ot orb matches 45 run function shadow:orb/drones_spawn
+execute as @e[type=minecraft:block_display,tag=orb.drone] run function shadow:orb/drone_tick
+execute if score #ot orb matches 120..200 run function shadow:orb/arcs
+function shadow:orb/countdown
+execute if score #ot orb matches 200 run title @a[tag=orb.in] title {"text":"FIRE","color":"white","bold":true}
 # build up
 execute if score #ot orb matches 1 run title @a[tag=orb.in] times 10 50 15
 execute if score #ot orb matches 1 run title @a[tag=orb.in] subtitle {"text":"Target locked","color":"gray"}

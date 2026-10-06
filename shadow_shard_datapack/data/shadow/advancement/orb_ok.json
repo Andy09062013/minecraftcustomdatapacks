@@ -6,27 +6,57 @@
         "recipe_id": "shadow:orbital_strike",
         "ingredients": [
           {
-            "items": "minecraft:echo_shard",
+            "items": "minecraft:trial_key",
             "predicates": {
-              "minecraft:custom_data": "{shadow_napalm:1b}"
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
             }
           },
           {
-            "items": "minecraft:echo_shard",
+            "items": "minecraft:trial_key",
             "predicates": {
-              "minecraft:custom_data": "{shadow_napalm:1b}"
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
             }
           },
           {
-            "items": "minecraft:echo_shard",
+            "items": "minecraft:trial_key",
             "predicates": {
-              "minecraft:custom_data": "{shadow_napalm:1b}"
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
             }
           },
           {
-            "items": "minecraft:echo_shard",
+            "items": "minecraft:trial_key",
             "predicates": {
-              "minecraft:custom_data": "{shadow_napalm:1b}"
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
             }
           }
         ]
