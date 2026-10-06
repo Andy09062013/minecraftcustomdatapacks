@@ -2,5 +2,41 @@
   "parent": "minecraft:item/bow",
   "textures": {
     "layer0": "shadow:item/sniper_pulling_0"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        168.57,
+        -69.0,
+        173.47
+      ],
+      "translation": [
+        7.256,
+        4.939,
+        4.733
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -11.43,
+        69.0,
+        6.53
+      ],
+      "translation": [
+        7.256,
+        4.939,
+        4.733
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    }
   }
 }

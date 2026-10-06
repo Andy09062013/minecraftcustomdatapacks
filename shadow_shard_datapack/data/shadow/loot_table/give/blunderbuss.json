@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Blunderbuss",
+                  "color": "#d9a441"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Right click: fire a blast of rock shrapnel",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Uses 2 blocks per shot: cobblestone, cobbled deepslate, stone or deepslate",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Cobblestone / cobbled deepslate: 12 pellets",
+                    "color": "#c9c9c9",
+                    "italic": false
+                  },
+                  {
+                    "text": "Stone / deepslate: 6 heavy chunks, more total damage",
+                    "color": "#c9c9c9",
+                    "italic": false
+                  },
+                  {
+                    "text": "Brutal up close, falls off fast with range",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_stack_size": 1,
+                "minecraft:rarity": "epic",
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "blunderbuss"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_blunder": true,
+                  "shadow_v2": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.05,
+                  "animation": "none",
+                  "sound": "minecraft:intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 1.2,
+                  "cooldown_group": "shadow:blunderbuss"
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:stick",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_data": {
+                      "shadow_blunder_rem": true
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

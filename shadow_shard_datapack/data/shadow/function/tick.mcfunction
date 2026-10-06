@@ -95,3 +95,5 @@ execute as @e[type=minecraft:arrow,tag=shadow.vbow] at @s run function shadow:eb
 execute as @e[scores={ebow.mk=1..}] at @s run function shadow:ebow/mark_tick
 execute as @a[scores={ebow.u=1..}] unless score @s ebow.f matches 1 run function shadow:ebow/release
 scoreboard players set @a ebow.f 0
+execute as @a[tag=shadow.blb_restore] run function shadow:blb/restore
+execute as @e[type=minecraft:item_display,tag=blb.p] at @s run function shadow:blb/tick

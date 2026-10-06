@@ -41,6 +41,7 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
 - Eclipse Bow (menu only, not craftable). Tap right click to switch forms, hold to draw
   - Light Form: only works during the day, gives Light Arrows. Light beams gather on the bow while drawing. Shoots a straight piercing light shot with Sniper-like damage that bursts like a weaker Holy Hand Grenade
   - Void Form: infinite Void Arrows, dark aura while drawing. Damage x0.75 by day, x1.35 at night, x1.7 on a full moon night. Hits give Wither, block healing and add 10% damage taken for 8 seconds
+- Blunderbuss (menu only, not craftable): a shotgun. Right click fires a spread of rock shrapnel that flies about 20 blocks. Uses 2 blocks per shot: cobblestone or cobbled deepslate fires 12 pellets (60 damage point blank), stone or deepslate fires 6 heavier chunks (66 damage point blank). Damage drops off fast with range. 1.2 second reload
 - Motor Boat: 2x boat speed, no paddles, leaves ripples. Only runs on water (not land or ice). W/S throttle, A/D steer
 
 ## Motor Boat recipe
@@ -66,7 +67,7 @@ Any book and quill works in the Letter slot.
 
 All custom items use their own item model, so without the resource pack they show as missing textures. The Evolving Blade keeps the vanilla sword looks for each tier. Old custom items in player inventories and ender chests update to the new models (and the new Heavy Duty Rifle lore) automatically within a second.
 
-The Eclipse Sword and Eclipse Bow add new enchantments and damage types, so the server needs a restart (not just /reload) the first time.
+The Eclipse Sword, Eclipse Bow and Blunderbuss add new enchantments and damage types, so the server needs a restart (not just /reload) the first time.
 
 ## Rageblade cutscene
 

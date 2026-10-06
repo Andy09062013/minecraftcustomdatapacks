@@ -100,3 +100,10 @@ scoreboard objectives add ebow.t dummy
 scoreboard players set #5 ebow.t 5
 scoreboard objectives add ebow.u dummy
 scoreboard objectives add ebow.f dummy
+scoreboard objectives add blb.s dummy
+scoreboard objectives add blb.b dummy
+scoreboard objectives add blb.o dummy
+scoreboard objectives add blb dummy
+scoreboard players set #36 blb 36
+scoreboard players set #40 blb 40
+scoreboard players set #1600 blb 1600

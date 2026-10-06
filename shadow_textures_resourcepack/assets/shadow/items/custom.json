@@ -604,6 +604,13 @@
           "type": "minecraft:model",
           "model": "shadow:item/void_arrow"
         }
+      },
+      {
+        "when": "blunderbuss",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/blunderbuss"
+        }
       }
     ],
     "fallback": {
