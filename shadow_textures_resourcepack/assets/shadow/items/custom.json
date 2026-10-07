@@ -658,6 +658,13 @@
           "type": "minecraft:model",
           "model": "shadow:item/bflag_netherite"
         }
+      },
+      {
+        "when": "grappling_hook",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/grappling_hook"
+        }
       }
     ],
     "fallback": {

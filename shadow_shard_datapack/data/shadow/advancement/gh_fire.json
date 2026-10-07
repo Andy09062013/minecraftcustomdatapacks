@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:heart_of_the_sea",
+          "predicates": {
+            "minecraft:custom_data": "{shadow_grapple:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:gh/fire"
+  }
+}

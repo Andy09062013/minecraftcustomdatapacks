@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DLI"
+  ],
+  "key": {
+    "D": [
+      "minecraft:pointed_dripstone",
+      "minecraft:dripstone_block"
+    ],
+    "L": "minecraft:lead",
+    "I": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "minecraft:heart_of_the_sea",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Grappling Hook",
+        "color": "#c8b089"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Hold right click for 2s to fire",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hits a block: pulls you to it, even through walls",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Hits a mob or player: drags you to them",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "5 second cooldown",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:max_stack_size": 1,
+      "minecraft:max_damage": 200,
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_model": "shadow:custom",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "grappling_hook"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shadow_grapple": true,
+        "shadow_v2": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 2.0,
+        "animation": "bow",
+        "sound": "minecraft:intentionally_empty",
+        "has_consume_particles": false
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 5,
+        "cooldown_group": "shadow:grappling_hook"
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:heart_of_the_sea",
+        "count": 1,
+        "components": {
+          "minecraft:custom_data": {
+            "shadow_grapple_rem": true
+          }
+        }
+      }
+    }
+  }
+}

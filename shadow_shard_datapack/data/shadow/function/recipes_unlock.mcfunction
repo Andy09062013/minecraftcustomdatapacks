@@ -46,4 +46,5 @@ recipe give @s shadow:battle_flag_stone
 recipe give @s shadow:battle_flag_iron
 recipe give @s shadow:battle_flag_diamond
 recipe give @s shadow:battle_flag_netherite
-scoreboard players set @s cs.rv 7
+recipe give @s shadow:grappling_hook
+scoreboard players set @s cs.rv 8

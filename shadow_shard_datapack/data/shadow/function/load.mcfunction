@@ -176,3 +176,10 @@ scoreboard objectives add bf.sel dummy
 scoreboard players set #4 bf 4
 scoreboard players set #10 bf 10
 scoreboard players set #20 bf 20
+scoreboard objectives add gh dummy
+scoreboard objectives add gh.dmg dummy
+scoreboard objectives add gh.hand dummy
+scoreboard objectives add gh.st dummy
+scoreboard objectives add gh.pt dummy
+scoreboard objectives add gh.t dummy
+scoreboard objectives add gh.of dummy
