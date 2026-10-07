@@ -60,6 +60,12 @@
                   "bypassed_by": "#minecraft:bypasses_shield",
                   "block_sound": "minecraft:item.shield.block",
                   "disabled_sound": "minecraft:item.shield.break"
+                },
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "reinforced_shield"
+                  ]
                 }
               }
             }

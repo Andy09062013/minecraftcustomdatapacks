@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "shadow:custom",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "reinforced_shield"
+        ]
+      }
+    }
+  }
+]

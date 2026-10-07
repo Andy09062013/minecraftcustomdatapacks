@@ -608,6 +608,21 @@
           "type": "minecraft:model",
           "model": "shadow:item/battery"
         }
+      },
+      {
+        "when": "reinforced_shield",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "shadow:item/reinforced_shield_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "shadow:item/reinforced_shield"
+          }
+        }
       }
     ],
     "fallback": {
