@@ -8,3 +8,4 @@ tag @s add orb.caster
 execute as @e[type=minecraft:marker,tag=orb.tgt,limit=1] at @s run forceload add ~-48 ~-48 ~48 ~48
 title @s actionbar {"text":"🛰 Uplink established. Target locked...","color":"#bfe9ff"}
 playsound minecraft:block.beacon.activate master @a ~ ~ ~ 3 1.6
+loot give @s loot shadow:give/orbital_dormant

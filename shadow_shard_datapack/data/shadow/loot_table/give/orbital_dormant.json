@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Dormant Orbital Strike",
+                  "color": "#6f8a99"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "The uplink is offline",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Craft it in the middle of 8 Orbital Strike Keys to wake it up",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_stack_size": 1,
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "orbital_dormant"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_orbdormant": true,
+                  "shadow_v2": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

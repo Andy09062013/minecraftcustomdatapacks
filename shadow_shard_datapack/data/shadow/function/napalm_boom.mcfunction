@@ -34,3 +34,4 @@ scoreboard players set #napd shadow.nap 0
 execute positioned ~-1 ~2 ~1 run function shadow:napalm_surface
 scoreboard players set #napd shadow.nap 0
 execute positioned ~-1 ~2 ~-1 run function shadow:napalm_surface
+execute unless score #nonapgrief orb matches 1 run summon minecraft:tnt ~ ~ ~ {fuse:0s,explosion_power:2.5f}

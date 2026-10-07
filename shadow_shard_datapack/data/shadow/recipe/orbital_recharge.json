@@ -39,16 +39,17 @@
       },
       "minecraft:max_stack_size": 1,
       "minecraft:custom_data": {
-        "shadow_orbital_raw": true
+        "shadow_orbital_rc_raw": true
       }
     }
   },
   "pattern": [
     "KKK",
-    "KKK",
+    "KDK",
     "KKK"
   ],
   "key": {
-    "K": "minecraft:trial_key"
+    "K": "minecraft:trial_key",
+    "D": "minecraft:echo_shard"
   }
 }

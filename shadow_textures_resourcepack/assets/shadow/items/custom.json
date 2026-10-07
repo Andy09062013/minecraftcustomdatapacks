@@ -665,6 +665,13 @@
           "type": "minecraft:model",
           "model": "shadow:item/grappling_hook"
         }
+      },
+      {
+        "when": "orbital_dormant",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/orbital_dormant"
+        }
       }
     ],
     "fallback": {

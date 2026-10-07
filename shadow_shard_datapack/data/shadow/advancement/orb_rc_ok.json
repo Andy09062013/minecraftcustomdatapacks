@@ -1,0 +1,69 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "shadow:orbital_recharge",
+        "ingredients": [
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:trial_key",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbkey:1b}"
+            }
+          },
+          {
+            "items": "minecraft:echo_shard",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_orbdormant:1b}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:orb/rc_ok"
+  }
+}
