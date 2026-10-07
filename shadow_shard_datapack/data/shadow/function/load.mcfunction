@@ -183,3 +183,4 @@ scoreboard objectives add gh.st dummy
 scoreboard objectives add gh.pt dummy
 scoreboard objectives add gh.t dummy
 scoreboard objectives add gh.of dummy
+scoreboard objectives add bs.cd dummy

@@ -2,7 +2,7 @@ scoreboard players set @s shadow.axecd 10
 scoreboard players operation #eid shadow.ev = #me shadow.id
 tag @a[tag=shadow.axeowner] add shadow.eatk
 # weak hit, the throw is mostly for marking
-damage @s 6 minecraft:player_attack by @a[tag=shadow.eatk,limit=1]
+damage @s 4 minecraft:player_attack by @a[tag=shadow.eatk,limit=1]
 scoreboard players set @s shadow.mark 200
 scoreboard players operation @s shadow.markby = #eid shadow.ev
 particle minecraft:sweep_attack ~ ~1 ~ 0.2 0.2 0.2 0 2

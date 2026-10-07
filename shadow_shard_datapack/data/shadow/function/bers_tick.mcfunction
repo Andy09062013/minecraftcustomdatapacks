@@ -15,3 +15,4 @@ execute unless function shadow:bers_should_low run function shadow:bers_clear
 execute if score #pieces shadow.maxhp matches 4 unless items entity @s weapon.offhand * run loot replace entity @s weapon.offhand loot shadow:berserker_heart
 execute unless score #pieces shadow.maxhp matches 4 run clear @s *[custom_data~{shadow_bheart:1b}]
 execute if score #pieces shadow.maxhp matches 4 if items entity @s container.* *[custom_data~{shadow_bheart:1b}] run clear @s *[custom_data~{shadow_bheart:1b}]
+execute if score #pieces shadow.maxhp matches 1.. if score @s shadow.hp matches 1..6 unless score @s bs.cd matches 1.. at @s run function shadow:bers_mend

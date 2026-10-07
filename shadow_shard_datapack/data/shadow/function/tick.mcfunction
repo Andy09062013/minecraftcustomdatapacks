@@ -36,6 +36,7 @@ execute as @e[type=minecraft:snowball,tag=shadow.iceproj] at @s run function sha
 execute as @e[type=minecraft:block_display,tag=shadow.icevis] at @s run function shadow:frost_track
 execute as @e[type=minecraft:block_display,tag=shadow.icecase] run function shadow:icecase_tick
 execute as @e[scores={shadow.fdecay=1..}] run function shadow:frost_decay
+scoreboard players remove @a[scores={bs.cd=1..}] bs.cd 1
 execute as @a at @s run function shadow:bers_tick
 execute as @e[type=minecraft:item] if items entity @s contents *[custom_data~{shadow_bheart:1b}] run kill @s
 execute as @a unless score @s shadow.fuel matches -1.. run scoreboard players set @s shadow.fuel 200
@@ -56,6 +57,7 @@ execute as @e[scores={shadow.mark=1..}] at @s run function shadow:mark_tick
 scoreboard players remove @e[scores={shadow.axecd=1..}] shadow.axecd 1
 execute as @a if items entity @s weapon.mainhand minecraft:written_book[custom_data~{shadow_letter:1b}] at @s run function shadow:letter_seal
 execute as @e[type=minecraft:bat,tag=shadow.mailbat] at @s run function shadow:mailbat_tick
+execute as @e[type=minecraft:item_display,tag=shadow.mailitem] at @s run function shadow:mail_orphan
 execute as @a[gamemode=!spectator] if items entity @s container.* *[custom_data~{shadow_satchel:1b}] at @s run function shadow:sat_tick
 execute as @a[gamemode=!spectator] unless items entity @s container.* *[custom_data~{shadow_satchel:1b}] if items entity @s weapon.offhand *[custom_data~{shadow_satchel:1b}] at @s run function shadow:sat_tick
 kill @e[type=minecraft:item_display,tag=shadow.satbag]
