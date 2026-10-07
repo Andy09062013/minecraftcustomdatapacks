@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shield",
+          "predicates": {
+            "minecraft:custom_data": "{shadow_rshield:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:rshield/up"
+  }
+}

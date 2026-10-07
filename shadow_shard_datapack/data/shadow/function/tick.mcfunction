@@ -105,3 +105,4 @@ execute as @a if items entity @s container.* *[custom_data~{shadow_orbkey_raw:1b
 function shadow:vs/tick
 function shadow:mb/tick
 function shadow:batt/tick
+function shadow:rshield/tick

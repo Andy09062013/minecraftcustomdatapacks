@@ -165,3 +165,5 @@ scoreboard objectives add batt.ch dummy
 scoreboard objectives add batt.z dummy
 scoreboard players set #10 batt 10
 scoreboard players set #20 batt 20
+scoreboard objectives add rs.b dummy
+scoreboard players set #3 rs.b 3
