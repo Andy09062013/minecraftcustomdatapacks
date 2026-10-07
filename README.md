@@ -44,6 +44,7 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
   - Light Form: only works during the day, gives Light Arrows. Light beams gather on the bow while drawing. Shoots a straight piercing light shot with Sniper-like damage that bursts like a weaker Holy Hand Grenade
   - Void Form: infinite Void Arrows, dark aura while drawing. Damage x0.75 by day, x1.35 at night, x1.7 on a full moon night. Hits give Wither, block healing and add 10% damage taken for 8 seconds
 - Blunderbuss (menu only, not craftable): a shotgun. Right click fires a spread of rock shrapnel that flies about 20 blocks. Uses 2 blocks per shot: cobblestone or cobbled deepslate fires 12 pellets (60 damage point blank), stone or deepslate fires 6 heavier chunks (66 damage point blank). Damage drops off fast with range. 1.2 second reload
+- Battery: iron ingot + Shadow Shard. Hold it in your offhand with the Mallet in your main hand and right click to charge the Mallet for 3 sec (10 sec cooldown, needs the Mallet stun ready). A charged stun shocks the target with 0.5 damage every half second and stuns longer: players 5 sec, mobs 4 sec, undead 2 sec, iron golems 10 sec, wardens 1.5 sec, the Ender Dragon 0.5 sec
 - Void Scythe: crafted like an axe with 3 Void Shards and 2 sticks. Diamond axe damage, never breaks
   - Right click: Void Sweep, a wide swing with a bit more damage than a normal hit (1.5 sec cooldown)
   - Every 2nd hit on a player or 10th hit on a mob (fully charged) gives a Void Crystal. Unspent crystals shatter when you die

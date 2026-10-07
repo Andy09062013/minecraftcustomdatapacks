@@ -601,6 +601,13 @@
           "type": "minecraft:model",
           "model": "shadow:item/mailbox"
         }
+      },
+      {
+        "when": "battery",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/battery"
+        }
       }
     ],
     "fallback": {

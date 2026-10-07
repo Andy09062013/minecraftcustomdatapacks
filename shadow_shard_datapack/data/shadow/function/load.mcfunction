@@ -157,3 +157,11 @@ scoreboard objectives add mb.use dummy
 scoreboard objectives add mb.n dummy
 scoreboard objectives add mb.v dummy
 scoreboard objectives add mb.lv minecraft.custom:minecraft.leave_game
+scoreboard objectives add batt dummy
+scoreboard objectives add batt.ok dummy
+scoreboard objectives add batt.use dummy
+scoreboard objectives add batt.cd dummy
+scoreboard objectives add batt.ch dummy
+scoreboard objectives add batt.z dummy
+scoreboard players set #10 batt 10
+scoreboard players set #20 batt 20

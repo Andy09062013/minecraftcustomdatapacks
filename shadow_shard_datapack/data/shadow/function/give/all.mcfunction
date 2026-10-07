@@ -35,3 +35,4 @@ function shadow:give/orbital_key
 function shadow:give/void_scythe
 function shadow:give/void_crystal
 function shadow:give/mailbox
+function shadow:give/battery

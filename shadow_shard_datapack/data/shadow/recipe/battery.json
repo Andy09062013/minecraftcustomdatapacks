@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "minecraft:copper_ingot",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Battery",
+        "color": "#7fe7ff"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Hold it in one hand and the Mallet in the other",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Right click: charge the Mallet for 3 seconds",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "text": "A charged stun shocks for longer and keeps zapping",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "10 second cooldown",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "shadow:custom",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "battery"
+        ]
+      },
+      "minecraft:rarity": "uncommon",
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "shadow_battery_raw": true
+      }
+    }
+  }
+}

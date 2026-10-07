@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "shadow:battery",
+        "ingredients": [
+          {
+            "items": "minecraft:amethyst_shard",
+            "predicates": {
+              "minecraft:custom_data": "{shadow_shard:1b}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:batt/ok"
+  }
+}
