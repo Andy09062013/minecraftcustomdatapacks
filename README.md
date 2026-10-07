@@ -30,7 +30,7 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
 - Executioner's Axe: boomerang throw (2 hearts on the way out and 2 on the way back, always comes back within 2 sec), Executioner's Mark, executes at 15% (18% if marked)
 - Letter: delivered by a mail bat, can carry an item. A pipebomb in a letter blows a small hole (about 2 blocks) when opened. If the player is offline the bat drops it in their Mailbox. If the bat gets killed the letter drops on the ground
 - Mailbox: free every time you sleep in a bed (only one at a time). Right click a block within 25 blocks of your bed to place it. Placing a new one moves your old one. The red flag goes up when there's mail, right click it to take your letters. You get an alert when you join if mail is waiting
-- Napalm Strike: walkie talkie. Marks the block you look at (up to 128 blocks), a random F-35, A-10 or Eurofighter Typhoon flies over and drops 7 napalm bombs that leave fire for 8 sec. No block damage, 45 sec cooldown
+- Napalm Strike: walkie talkie. Marks the block you look at (up to 128 blocks), a random F-35, A-10 or Eurofighter Typhoon flies over high in the sky and drops 7 napalm bombs that leave fire for 8 sec. No block damage, 45 sec cooldown
 - Satchel: 5 pockets that each hold a full stack. Crouch while holding it to switch pockets
 
 - Light Shard: glowstone dust + Shadow Shard
