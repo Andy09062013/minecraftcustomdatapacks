@@ -40,4 +40,5 @@ recipe give @s shadow:sniper
 recipe give @s shadow:super_mace
 recipe give @s shadow:void_scythe
 recipe give @s shadow:battery
-scoreboard players set @s cs.rv 5
+recipe give @s shadow:reinforced_shield
+scoreboard players set @s cs.rv 6

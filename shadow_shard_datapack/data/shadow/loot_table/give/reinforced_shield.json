@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Reinforced Shield",
+                  "color": "#b8c4d6"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Durability is its HP: 20 hearts",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Blocks every hit from any side while raised",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "One hit can never go through, it breaks instead",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Axes can't disable it",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "rare",
+                "minecraft:max_damage": 40,
+                "minecraft:custom_data": {
+                  "shadow_rshield": true,
+                  "shadow_v2": true
+                },
+                "minecraft:blocks_attacks": {
+                  "block_delay_seconds": 0.0,
+                  "disable_cooldown_scale": 0.0,
+                  "damage_reductions": [
+                    {
+                      "base": 0.0,
+                      "factor": 1.0,
+                      "horizontal_blocking_angle": 180.0
+                    }
+                  ],
+                  "item_damage": {
+                    "threshold": 0.0,
+                    "base": 0.0,
+                    "factor": 1.0
+                  },
+                  "bypassed_by": "#minecraft:bypasses_shield",
+                  "block_sound": "minecraft:item.shield.block",
+                  "disabled_sound": "minecraft:item.shield.break"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
