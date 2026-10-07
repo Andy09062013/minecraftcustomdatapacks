@@ -1,0 +1,5 @@
+function shadow:give/battle_flag_wooden
+function shadow:give/battle_flag_stone
+function shadow:give/battle_flag_iron
+function shadow:give/battle_flag_diamond
+function shadow:give/battle_flag_netherite

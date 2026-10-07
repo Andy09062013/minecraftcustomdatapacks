@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " PP",
+    " SP",
+    " T "
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "S": "minecraft:stone_sword",
+    "T": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Stone Battle Flag",
+        "color": "#9a9a9a"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Allies within 5 blocks get Strength I, Speed II,",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Regeneration I and Glowing",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Left click a player: pick them as an ally",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "text": "Right click: sound the warhorn (keep holding up to 5s)",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "text": "Buffs last up to 10s, 20 second cooldown",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:rarity": "rare",
+      "minecraft:item_model": "shadow:custom",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "bflag_stone"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shadow_bflag": true,
+        "shadow_v2": true,
+        "bf_tier": 2
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:base_attack_damage",
+          "amount": -0.99,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    }
+  }
+}

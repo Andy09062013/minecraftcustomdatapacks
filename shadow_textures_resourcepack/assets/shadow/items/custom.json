@@ -623,6 +623,41 @@
             "model": "shadow:item/reinforced_shield"
           }
         }
+      },
+      {
+        "when": "bflag_wooden",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/bflag_wooden"
+        }
+      },
+      {
+        "when": "bflag_stone",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/bflag_stone"
+        }
+      },
+      {
+        "when": "bflag_iron",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/bflag_iron"
+        }
+      },
+      {
+        "when": "bflag_diamond",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/bflag_diamond"
+        }
+      },
+      {
+        "when": "bflag_netherite",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/bflag_netherite"
+        }
       }
     ],
     "fallback": {

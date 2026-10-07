@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Wooden Battle Flag",
+                  "color": "#9c7a4a"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Allies within 4 blocks get Strength I, Speed I,",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Regeneration I and Glowing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Left click a player: pick them as an ally",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "text": "Right click: sound the warhorn (keep holding up to 5s)",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "text": "Buffs last up to 10s, 20 second cooldown",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "bflag_wooden"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_bflag": true,
+                  "shadow_v2": true,
+                  "bf_tier": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:base_attack_damage",
+                    "amount": -0.99,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

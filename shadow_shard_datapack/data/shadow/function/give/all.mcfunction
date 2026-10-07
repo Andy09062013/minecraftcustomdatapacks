@@ -37,3 +37,4 @@ function shadow:give/void_crystal
 function shadow:give/mailbox
 function shadow:give/battery
 function shadow:give/reinforced_shield
+function shadow:give/battle_flag

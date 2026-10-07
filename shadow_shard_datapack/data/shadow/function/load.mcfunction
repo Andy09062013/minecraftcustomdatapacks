@@ -167,3 +167,12 @@ scoreboard players set #10 batt 10
 scoreboard players set #20 batt 20
 scoreboard objectives add rs.b dummy
 scoreboard players set #3 rs.b 3
+scoreboard objectives add bf dummy
+scoreboard objectives add bf.u minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add bf.cd dummy
+scoreboard objectives add bf.ch dummy
+scoreboard objectives add bf.t dummy
+scoreboard objectives add bf.sel dummy
+scoreboard players set #4 bf 4
+scoreboard players set #10 bf 10
+scoreboard players set #20 bf 20

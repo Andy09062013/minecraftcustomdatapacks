@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:carrot_on_a_stick",
+              "predicates": {
+                "minecraft:custom_data": "{shadow_bflag:1b}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:bf/hit"
+  }
+}
