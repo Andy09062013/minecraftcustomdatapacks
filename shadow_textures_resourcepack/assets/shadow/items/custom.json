@@ -693,6 +693,20 @@
           "type": "minecraft:model",
           "model": "shadow:item/capture_ball_full"
         }
+      },
+      {
+        "when": "radio",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/radio"
+        }
+      },
+      {
+        "when": "radio_portable",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/radio_portable"
+        }
       }
     ],
     "fallback": {

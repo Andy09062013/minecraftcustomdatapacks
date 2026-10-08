@@ -202,3 +202,12 @@ scoreboard objectives add cb.jmp minecraft.custom:minecraft.jump
 scoreboard players set #6 cb 6
 scoreboard objectives add cb.by dummy
 scoreboard players set #10 cb 10
+scoreboard objectives add rd dummy
+scoreboard objectives add rd.use dummy
+scoreboard objectives add rd.id dummy
+scoreboard objectives add rd.s dummy
+scoreboard objectives add rd.t dummy
+scoreboard objectives add rp.s dummy
+scoreboard objectives add rp.on dummy
+scoreboard objectives add rp.t dummy
+function shadow:rd/songs

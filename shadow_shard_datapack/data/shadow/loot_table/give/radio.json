@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Radio",
+                  "color": "#d8d8d8"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Right click a block to place it",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Placed: left click on/off, right click next song",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Sneak + left click to pick it back up",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "radio"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_radio": true,
+                  "shadow_v2": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 100000,
+                  "animation": "none",
+                  "sound": "minecraft:intentionally_empty",
+                  "has_consume_particles": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

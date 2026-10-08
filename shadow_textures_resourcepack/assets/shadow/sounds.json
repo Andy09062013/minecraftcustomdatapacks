@@ -1,4 +1,179 @@
 {
-  "mallet_squeak": {"subtitle": "Mallet squeaks", "sounds": [{"name": "shadow:mallet_squeak"}]},
-  "super_slam": {"subtitle": "Super Mace slams", "sounds": [{"name": "shadow:super_slam", "attenuation_distance": 48}]}
+  "mallet_squeak": {
+    "subtitle": "Mallet squeaks",
+    "sounds": [
+      {
+        "name": "shadow:mallet_squeak"
+      }
+    ]
+  },
+  "super_slam": {
+    "subtitle": "Super Mace slams",
+    "sounds": [
+      {
+        "name": "shadow:super_slam",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "radio.song1": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/cat",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port1": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/cat",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song2": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/blocks",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port2": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/blocks",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song3": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/chirp",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port3": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/chirp",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song4": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/far",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port4": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/far",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song5": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/mall",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port5": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/mall",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song6": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/stal",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port6": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/stal",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song7": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/pigstep",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port7": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/pigstep",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song8": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/otherside",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port8": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "minecraft:records/otherside",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  }
 }

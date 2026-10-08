@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:flint",
+          "predicates": {
+            "minecraft:custom_data": "{shadow_radio:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:rd/use"
+  }
+}

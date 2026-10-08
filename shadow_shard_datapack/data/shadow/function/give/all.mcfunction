@@ -40,3 +40,5 @@ function shadow:give/battle_flag
 function shadow:give/grappling_hook
 function shadow:give/leech_crossbow
 function shadow:give/capture_ball
+function shadow:give/radio
+function shadow:give/portable_radio

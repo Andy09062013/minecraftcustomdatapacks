@@ -50,4 +50,6 @@ recipe give @s shadow:orbital_recharge
 recipe give @s shadow:leech_crossbow
 recipe give @s shadow:arrow_nugget
 recipe give @s shadow:capture_ball
-scoreboard players set @s cs.rv 11
+recipe give @s shadow:radio
+recipe give @s shadow:portable_radio
+scoreboard players set @s cs.rv 12
