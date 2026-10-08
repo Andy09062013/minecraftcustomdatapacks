@@ -48,7 +48,7 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
   - 3+: heals the shooter a little (more with more leeches). 5+: drains durability from a random item and drops XP for the shooter. 7+: steals hunger. 10+: it can kill
   - Players get rid of leeches by throwing them out of their inventory. Mobs keep them, and tankier mobs need more than 10 to be killed
 - Arrows: stick + iron nugget also makes 2 arrows
-- Radio: 8 iron ingots around a note block. Right click a block to place it. Left click turns it on or off, right click skips to the next song, sneak + left click picks it back up. Shows the song name above it
+- Radio: 8 iron ingots around a note block. Right click a block to place it. Left click turns it on or off, right click skips to the next song, sneak + left click (or sneak + right click) picks it back up. Shows the song name above it
 - Portable Radio: 4 iron ingots around a note block (plus shape). Plays while it's in your hand or offhand. Right click: next song, sneak + right click: on or off
 - Radio songs: 6 built-in songs (Hopes and Dreams, Hymn for the Weekend, Dreiton, Epoch (TLT Remix), Dare (Slowed), Shape of You (Hardtekk)). The song files are only in the resource pack zip, not in this repo.
 - **Custom songs must be `.ogg` files.** Minecraft can't play mp3, wav or anything else, so convert first (any free audio converter works). To put your own song in a slot (example: slot 1):
