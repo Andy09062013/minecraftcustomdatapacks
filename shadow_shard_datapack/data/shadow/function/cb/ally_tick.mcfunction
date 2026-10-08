@@ -11,7 +11,7 @@ tag @e remove cb.foe
 tag @s add cb.self
 execute as @a[tag=cb.boss,limit=1] at @s anchored eyes positioned ^ ^ ^ run function shadow:cb/aim_start
 execute unless entity @e[tag=cb.foe] as @e[type=#shadow:cb_hostile,tag=!cb.ally,distance=..16,sort=nearest,limit=1] run tag @s add cb.foe
-execute if entity @e[tag=cb.foe] run damage @s 0.01 minecraft:mob_attack by @e[tag=cb.foe,limit=1]
+execute if entity @e[tag=cb.foe] run function shadow:cb/ally_aggro
 tag @s remove cb.self
 tag @e remove cb.foe
 particle minecraft:happy_villager ~ ~1.8 ~ 0.2 0.1 0.2 0 1

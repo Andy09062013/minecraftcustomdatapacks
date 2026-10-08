@@ -211,3 +211,6 @@ scoreboard objectives add rp.s dummy
 scoreboard objectives add rp.on dummy
 scoreboard objectives add rp.t dummy
 function shadow:rd/songs
+scoreboard objectives add cb.fid dummy
+scoreboard objectives add cb.lf dummy
+scoreboard objectives add cb.re dummy
