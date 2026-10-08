@@ -93,7 +93,14 @@ data remove storage shadow:cb m.nbt.leash
 data remove storage shadow:cb m.nbt.Fire
 data remove storage shadow:cb m.nbt.FallDistance
 data remove storage shadow:cb m.nbt.fall_distance
-data modify storage shadow:cb m.nbt.Tags set value []
+data modify storage shadow:cb m.nbt.Tags set value ["cb.rel"]
+execute if entity @s[type=#shadow:cb_hostile] run data modify storage shadow:cb m.ally set value 1b
+execute if data entity @s AngryAt run data modify storage shadow:cb m.ally set value 1b
+execute if data entity @s angry_at run data modify storage shadow:cb m.ally set value 1b
+data remove storage shadow:cb m.nbt.AngryAt
+data remove storage shadow:cb m.nbt.angry_at
+data remove storage shadow:cb m.nbt.AngerTime
+data remove storage shadow:cb m.nbt.anger_end_time
 execute at @s run particle minecraft:dust{color:[1.0,0.2,0.2],scale:1.5} ~ ~0.8 ~ 0.4 0.5 0.4 0 40 force
 execute at @s run particle minecraft:end_rod ~ ~0.8 ~ 0.3 0.4 0.3 0.05 20 force
 execute at @s run playsound minecraft:entity.chicken.egg player @a ~ ~ ~ 1 0.6
