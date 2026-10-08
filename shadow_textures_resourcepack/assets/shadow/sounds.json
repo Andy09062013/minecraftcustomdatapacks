@@ -275,5 +275,25 @@
         "attenuation_distance": 96
       }
     ]
+  },
+  "radio.song14": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song14",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port14": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song14",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
   }
 }

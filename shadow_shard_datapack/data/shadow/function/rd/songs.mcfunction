@@ -1,2 +1,2 @@
-data modify storage shadow:radio names set value ["Hopes and Dreams", "Hymn for the Weekend", "Dreiton", "Epoch (TLT Remix)", "Dare (Slowed)", "Shape of You (Hardtekk)", "My Ordinary Life", "I Got No Time", "Battle Against a True Hero", "An Enigmatic Encounter", "Finale", "Hopes and Dreams (Save the World)", "Colgera Boss Theme"]
-data modify storage shadow:radio len set value [3720, 5220, 9960, 3880, 2940, 4120, 4660, 3360, 3220, 5480, 2260, 7120, 12420]
+data modify storage shadow:radio names set value ["Hopes and Dreams", "Hymn for the Weekend", "Dreiton", "Epoch (TLT Remix)", "Dare (Slowed)", "Shape of You (Hardtekk)", "My Ordinary Life", "I Got No Time", "Battle Against a True Hero", "An Enigmatic Encounter", "Finale", "Hopes and Dreams (Save the World)", "Colgera Boss Theme", "La Peace Funk"]
+data modify storage shadow:radio len set value [3720, 5220, 9960, 3880, 2940, 4120, 4660, 3360, 3220, 5480, 2260, 7120, 12420, 1500]

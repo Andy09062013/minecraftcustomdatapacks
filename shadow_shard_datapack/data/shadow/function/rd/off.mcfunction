@@ -12,5 +12,6 @@ stopsound @a[distance=..64] record shadow:radio.song10
 stopsound @a[distance=..64] record shadow:radio.song11
 stopsound @a[distance=..64] record shadow:radio.song12
 stopsound @a[distance=..64] record shadow:radio.song13
+stopsound @a[distance=..64] record shadow:radio.song14
 playsound minecraft:block.lever.click block @a ~ ~ ~ 1 0.8
 function shadow:rd/label_off

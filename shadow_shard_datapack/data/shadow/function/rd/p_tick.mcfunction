@@ -1,4 +1,4 @@
-execute if score @s rp.s matches 14.. run scoreboard players set @s rp.s 1
+execute if score @s rp.s matches 15.. run scoreboard players set @s rp.s 1
 tag @s add rp.play
 scoreboard players remove @s rp.t 1
 execute if score @s rp.t matches 1.. run return run particle minecraft:note ~ ~2.1 ~ 0.2 0.1 0.2 1 0
@@ -16,6 +16,7 @@ execute if score #s rd matches 10 run playsound shadow:radio.port10 record @a[di
 execute if score #s rd matches 11 run playsound shadow:radio.port11 record @a[distance=..48] ~ ~ ~ 2 1
 execute if score #s rd matches 12 run playsound shadow:radio.port12 record @a[distance=..48] ~ ~ ~ 2 1
 execute if score #s rd matches 13 run playsound shadow:radio.port13 record @a[distance=..48] ~ ~ ~ 2 1
+execute if score #s rd matches 14 run playsound shadow:radio.port14 record @a[distance=..48] ~ ~ ~ 2 1
 function shadow:rd/song_len
 scoreboard players operation @s rp.t = #len rd
 function shadow:rd/p_title with storage shadow:radio
