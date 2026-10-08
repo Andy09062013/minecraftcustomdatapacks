@@ -49,4 +49,5 @@ recipe give @s shadow:grappling_hook
 recipe give @s shadow:orbital_recharge
 recipe give @s shadow:leech_crossbow
 recipe give @s shadow:arrow_nugget
-scoreboard players set @s cs.rv 10
+recipe give @s shadow:capture_ball
+scoreboard players set @s cs.rv 11
