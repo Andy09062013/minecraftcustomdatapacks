@@ -1,0 +1,3 @@
+
+# radio songs stay local, they're only shipped in the zip
+shadow_textures_resourcepack/assets/shadow/sounds/radio/*.ogg

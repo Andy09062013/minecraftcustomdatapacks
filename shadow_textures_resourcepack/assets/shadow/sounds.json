@@ -20,7 +20,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/cat",
+        "name": "shadow:radio/song1",
         "stream": true,
         "attenuation_distance": 32
       }
@@ -30,7 +30,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/cat",
+        "name": "shadow:radio/song1",
         "stream": true,
         "attenuation_distance": 96
       }
@@ -40,7 +40,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/blocks",
+        "name": "shadow:radio/song2",
         "stream": true,
         "attenuation_distance": 32
       }
@@ -50,7 +50,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/blocks",
+        "name": "shadow:radio/song2",
         "stream": true,
         "attenuation_distance": 96
       }
@@ -60,7 +60,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/chirp",
+        "name": "shadow:radio/song3",
         "stream": true,
         "attenuation_distance": 32
       }
@@ -70,7 +70,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/chirp",
+        "name": "shadow:radio/song3",
         "stream": true,
         "attenuation_distance": 96
       }
@@ -80,7 +80,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/far",
+        "name": "shadow:radio/song4",
         "stream": true,
         "attenuation_distance": 32
       }
@@ -90,7 +90,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/far",
+        "name": "shadow:radio/song4",
         "stream": true,
         "attenuation_distance": 96
       }
@@ -100,7 +100,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/mall",
+        "name": "shadow:radio/song5",
         "stream": true,
         "attenuation_distance": 32
       }
@@ -110,7 +110,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/mall",
+        "name": "shadow:radio/song5",
         "stream": true,
         "attenuation_distance": 96
       }
@@ -120,7 +120,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/stal",
+        "name": "shadow:radio/song6",
         "stream": true,
         "attenuation_distance": 32
       }
@@ -130,7 +130,7 @@
     "subtitle": "Radio plays",
     "sounds": [
       {
-        "name": "minecraft:records/stal",
+        "name": "shadow:radio/song6",
         "stream": true,
         "attenuation_distance": 96
       }
