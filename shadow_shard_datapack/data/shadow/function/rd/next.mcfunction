@@ -1,3 +1,6 @@
-data remove entity @s interaction
 function shadow:rd/mine
+execute on target if predicate shadow:sneaking run tag @s add rd.picker
+execute unless entity @a[tag=rd.picker] as @a[distance=..6,predicate=shadow:sneaking,sort=nearest,limit=1] run tag @s add rd.picker
+data remove entity @s interaction
+execute if entity @a[tag=rd.picker] run return run function shadow:rd/pickup
 execute as @e[tag=rd.cur] at @s run function shadow:rd/next_m
