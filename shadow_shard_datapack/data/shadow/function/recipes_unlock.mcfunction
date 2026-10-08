@@ -48,4 +48,6 @@ recipe give @s shadow:battle_flag_diamond
 recipe give @s shadow:battle_flag_netherite
 recipe give @s shadow:grappling_hook
 recipe give @s shadow:orbital_recharge
-scoreboard players set @s cs.rv 9
+recipe give @s shadow:leech_crossbow
+recipe give @s shadow:arrow_nugget
+scoreboard players set @s cs.rv 10

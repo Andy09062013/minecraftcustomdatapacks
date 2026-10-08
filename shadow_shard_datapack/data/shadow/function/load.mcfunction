@@ -185,3 +185,12 @@ scoreboard objectives add gh.t dummy
 scoreboard objectives add gh.of dummy
 scoreboard objectives add bs.cd dummy
 scoreboard objectives add orb.rc dummy
+scoreboard objectives add lc dummy
+scoreboard objectives add lc.n dummy
+scoreboard objectives add lc.by dummy
+scoreboard objectives add lc.slot dummy
+scoreboard players set #2 lc 2
+scoreboard players set #3 lc 3
+scoreboard players set #10 lc 10
+scoreboard players set #20 lc 20
+function shadow:lc/init

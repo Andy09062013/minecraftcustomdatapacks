@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "shadow:item/leech_crossbow_pulling_1"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        -71.63,
+        -10.8,
+        -73.12
+      ],
+      "translation": [
+        7.256,
+        4.939,
+        4.733
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -71.63,
+        -10.8,
+        16.88
+      ],
+      "translation": [
+        7.256,
+        4.939,
+        4.733
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    }
+  }
+}

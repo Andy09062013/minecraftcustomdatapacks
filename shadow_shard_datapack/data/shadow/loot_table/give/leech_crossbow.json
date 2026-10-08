@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Leech Crossbow",
+                  "color": "#8a2a2a"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Shots do no damage but stick a Leech on the target",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "3+ leeches heal you, 5+ drain their gear for XP",
+                    "color": "dark_red",
+                    "italic": false
+                  },
+                  {
+                    "text": "7+ steal hunger, 10 can kill",
+                    "color": "dark_red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Players can throw leeches out to get rid of them",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "leech_crossbow"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_leech_cb": true,
+                  "shadow_v2": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

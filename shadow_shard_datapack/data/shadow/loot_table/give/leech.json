@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Leech",
+                  "color": "#5a1a1a"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "It's sucking your blood",
+                    "color": "dark_red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Throw it out of your inventory to get rid of it",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "!minecraft:food": {},
+                "!minecraft:consumable": {},
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "leech"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_leech": true,
+                  "shadow_v2": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -85,7 +85,7 @@ execute if score #upd mb.t matches 20.. as @a if function shadow:upd_need run fu
 execute if score #upd mb.t matches 20.. run scoreboard players set #upd mb.t 0
 execute if score #run cs.t matches 1.. run function shadow:cs/tick
 execute unless score #run cs.t matches 1.. as @a[tag=cs.in] run function shadow:cs/leave
-execute as @a unless score @s cs.rv matches 9 run function shadow:recipes_unlock
+execute as @a unless score @s cs.rv matches 10 run function shadow:recipes_unlock
 execute if score #orun orb matches 1.. run function shadow:orb/tick
 execute unless score #orun orb matches 1.. as @a[tag=orb.in] run function shadow:orb/leave
 execute as @a if items entity @s container.* *[custom_data~{shadow_orbital_raw:1b}] run function shadow:orb/verify
@@ -111,3 +111,4 @@ function shadow:rshield/tick
 function shadow:bf/tick
 function shadow:gh/tick
 execute as @a if items entity @s container.* *[custom_data~{shadow_orbital_rc_raw:1b}] run function shadow:orb/rc_verify
+function shadow:lc/tick
