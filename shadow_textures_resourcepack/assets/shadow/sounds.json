@@ -175,5 +175,105 @@
         "attenuation_distance": 96
       }
     ]
+  },
+  "radio.song9": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song9",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port9": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song9",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song10": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song10",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port10": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song10",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song11": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song11",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port11": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song11",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song12": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song12",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port12": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song12",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song13": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song13",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port13": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song13",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
   }
 }
