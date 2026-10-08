@@ -135,45 +135,5 @@
         "attenuation_distance": 96
       }
     ]
-  },
-  "radio.song7": {
-    "subtitle": "Radio plays",
-    "sounds": [
-      {
-        "name": "minecraft:records/pigstep",
-        "stream": true,
-        "attenuation_distance": 32
-      }
-    ]
-  },
-  "radio.port7": {
-    "subtitle": "Radio plays",
-    "sounds": [
-      {
-        "name": "minecraft:records/pigstep",
-        "stream": true,
-        "attenuation_distance": 96
-      }
-    ]
-  },
-  "radio.song8": {
-    "subtitle": "Radio plays",
-    "sounds": [
-      {
-        "name": "minecraft:records/otherside",
-        "stream": true,
-        "attenuation_distance": 32
-      }
-    ]
-  },
-  "radio.port8": {
-    "subtitle": "Radio plays",
-    "sounds": [
-      {
-        "name": "minecraft:records/otherside",
-        "stream": true,
-        "attenuation_distance": 96
-      }
-    ]
   }
 }
