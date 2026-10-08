@@ -14,7 +14,6 @@ recipe give @s shadow:grenade
 recipe give @s shadow:heavy_rifle
 recipe give @s shadow:high_caliber_round
 recipe give @s shadow:holy_hand_grenade
-recipe give @s shadow:hungry_crossbow
 recipe give @s shadow:launch_pearl
 recipe give @s shadow:letter
 recipe give @s shadow:light_shard

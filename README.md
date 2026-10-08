@@ -19,7 +19,6 @@ Zip the folder contents (so `pack.mcmeta` is at the root of the zip) or drop the
 - Sniper: 3x damage straight shots
 - Heavy Duty Rifle: made from 2 Snipers (both are bows now), 5 sec reload after each shot, 2 arrows per shot, 2x Sniper damage, takes arrows or High Caliber Rounds
 - High Caliber Round: 3x damage arrow with glowing and poison
-- Hungry Crossbow: steals hunger from players
 - Plasma Gun: charge for 15 sec to fire a piercing plasma blast
 - Frost Staff: 3 stages of slow, slower, frozen
 - Flamethrower: fuel meter, blue flames through fire or lava

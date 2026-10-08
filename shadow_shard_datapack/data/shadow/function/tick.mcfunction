@@ -23,7 +23,6 @@ execute as @e[scores={shadow.stun=1..}] at @s run function shadow:stun_tick
 scoreboard players add @a shadow.slam 0
 execute as @a[scores={shadow.slam=1..}] at @s run function shadow:slam_tick
 execute as @e[type=minecraft:marker,tag=shadow.fx] at @s run function shadow:fx_tick
-execute as @e[type=minecraft:block_display,tag=shadow.hungvis] at @s run function shadow:hungry_track
 execute as @a[tag=shadow.feeding,scores={shadow.feed=..0}] run function shadow:feed_end
 execute as @a[scores={shadow.feed=1..}] run function shadow:feed_tick
 execute as @e[type=#minecraft:arrows,tag=shadow.plasma_max] at @s run function shadow:plasma_trail

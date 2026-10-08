@@ -11,9 +11,6 @@ execute if data entity @s item.components."minecraft:custom_data".shadow_caliber
 execute unless entity @s[tag=shadow.tntarrow] on origin if items entity @s weapon.mainhand *[custom_data~{shadow_leech_cb:1b}] run tag @s add lc.shooter
 execute if entity @a[tag=lc.shooter] run function shadow:lc/arm
 tag @a[tag=lc.shooter] remove lc.shooter
-execute unless entity @s[tag=shadow.tntarrow] on origin if items entity @s weapon.mainhand *[custom_data~{shadow_hungry:1b}] run tag @s add shadow.hungrier
-execute if entity @a[tag=shadow.hungrier] run function shadow:hungry_arm
-tag @a[tag=shadow.hungrier] remove shadow.hungrier
 execute unless entity @s[tag=shadow.tntarrow] on origin if items entity @s weapon.* *[custom_data~{shadow_plasma:1b}] run tag @s add shadow.plasmer
 execute if entity @a[tag=shadow.plasmer] run function shadow:plasma_arm
 tag @a[tag=shadow.plasmer] remove shadow.plasmer

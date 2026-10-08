@@ -6,7 +6,6 @@ function shadow:give/mallet
 function shadow:give/shadow_shard
 function shadow:give/sniper
 function shadow:give/super_mace
-function shadow:give/hungry_crossbow
 function shadow:give/plasma_gun
 function shadow:give/frost_staff
 function shadow:give/berserker_helmet
