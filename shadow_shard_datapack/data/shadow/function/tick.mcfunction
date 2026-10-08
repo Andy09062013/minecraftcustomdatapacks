@@ -111,3 +111,4 @@ function shadow:bf/tick
 function shadow:gh/tick
 execute as @a if items entity @s container.* *[custom_data~{shadow_orbital_rc_raw:1b}] run function shadow:orb/rc_verify
 function shadow:lc/tick
+function shadow:cb/tick

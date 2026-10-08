@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Capture Ball",
+                  "color": "#ff5a5a"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Throw it at a mob to catch it",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Bounces back to you if it misses",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_stack_size": 1,
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "shadow:custom",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "capture_ball"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shadow_cball": true,
+                  "shadow_v2": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

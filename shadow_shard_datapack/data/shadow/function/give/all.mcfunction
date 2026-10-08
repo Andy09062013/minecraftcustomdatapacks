@@ -39,3 +39,4 @@ function shadow:give/reinforced_shield
 function shadow:give/battle_flag
 function shadow:give/grappling_hook
 function shadow:give/leech_crossbow
+function shadow:give/capture_ball

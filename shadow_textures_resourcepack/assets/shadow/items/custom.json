@@ -679,6 +679,20 @@
           "type": "minecraft:model",
           "model": "shadow:item/leech"
         }
+      },
+      {
+        "when": "capture_ball",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/capture_ball"
+        }
+      },
+      {
+        "when": "capture_ball_full",
+        "model": {
+          "type": "minecraft:model",
+          "model": "shadow:item/capture_ball_full"
+        }
       }
     ],
     "fallback": {

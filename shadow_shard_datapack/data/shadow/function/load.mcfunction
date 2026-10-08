@@ -194,3 +194,4 @@ scoreboard players set #3 lc 3
 scoreboard players set #10 lc 10
 scoreboard players set #20 lc 20
 function shadow:lc/init
+scoreboard objectives add cb dummy
