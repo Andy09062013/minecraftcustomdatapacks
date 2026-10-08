@@ -1,4 +1,5 @@
 tag @s add cb.in
+scoreboard players operation @s cb.by = #o cb
 scoreboard players set @s cb.j 0
 scoreboard players set @s cb.t 160
 function shadow:stun_core

@@ -1,6 +1,7 @@
 scoreboard players operation #o cb = @s shadow.id
 tag @a remove cb.me
 execute as @a if score @s shadow.id = #o cb run tag @s add cb.me
+execute if items entity @s contents *[custom_data~{cb_pball:1b}] run return run function shadow:cb/let_out
 execute if items entity @s contents *[custom_data~{cb_full:1b}] run return run function shadow:cb/release
 tag @e remove cb.tgt
 execute as @a[tag=!cb.me,tag=!cb.in,gamemode=!creative,gamemode=!spectator,distance=..2.2,sort=nearest,limit=1] unless score @s cb.imm matches 1.. run return run function shadow:cb/trap

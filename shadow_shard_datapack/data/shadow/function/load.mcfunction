@@ -200,3 +200,4 @@ scoreboard objectives add cb.t dummy
 scoreboard objectives add cb.imm dummy
 scoreboard objectives add cb.jmp minecraft.custom:minecraft.jump
 scoreboard players set #6 cb 6
+scoreboard objectives add cb.by dummy
