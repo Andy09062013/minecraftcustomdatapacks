@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "description": "AFK mode: frozen, safe and ignored after 12s of no input",
+    "pack_format": 57,
+    "supported_formats": [
+      57,
+      120
+    ],
+    "min_format": 57,
+    "max_format": 120
+  }
+}

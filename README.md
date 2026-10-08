@@ -106,3 +106,13 @@ All custom recipes unlock in the recipe book automatically. Datapacks can't add 
 /function shadow:give/all
 /function shadow:give/<item>
 ```
+
+## AFK datapack (separate)
+
+`afk_datapack` is its own datapack, so you can use it with or without the Shadow pack. If a player gives no input for 12 seconds, they go AFK:
+
+- Input means any movement key, jump, sneak, sprint, looking around, or taking damage
+- AFK players turn into spectators frozen at their spot: they can't move or fall, can't take damage, mobs ignore them and other players can't see them
+- Any input brings them back to the exact spot in their old game mode
+- Chat shows "X is now AFK" and "X is back"
+- Change the timer with `/scoreboard players set #limit afk.t <ticks>` (20 ticks = 1 second)
