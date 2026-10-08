@@ -9,4 +9,4 @@ playsound minecraft:item.mace.smash_ground_heavy player @a ~ ~ ~ 2 0.7
 playsound minecraft:entity.player.attack.crit player @a ~ ~ ~ 2 0.5
 playsound minecraft:block.bell.use player @a ~ ~ ~ 1 0.5
 function shadow:stun_end
-damage @s 99999 minecraft:player_attack by @a[tag=shadow.exec_now,limit=1]
+damage @s 99999 minecraft:magic by @a[tag=shadow.exec_now,limit=1]
