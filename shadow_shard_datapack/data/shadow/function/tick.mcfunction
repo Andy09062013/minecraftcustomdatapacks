@@ -55,6 +55,7 @@ execute as @a[scores={shadow.exect=1..}] at @s run function shadow:exec_tick
 execute as @e[scores={shadow.mark=1..}] at @s run function shadow:mark_tick
 scoreboard players remove @e[scores={shadow.axecd=1..}] shadow.axecd 1
 execute as @a if items entity @s weapon.mainhand minecraft:written_book[custom_data~{shadow_letter:1b}] at @s run function shadow:letter_seal
+execute as @e[type=minecraft:item] if items entity @s contents *[custom_data~{shadow_shard:1b}] at @s run function shadow:void_check
 execute as @e[type=minecraft:bat,tag=shadow.mailbat] at @s run function shadow:mailbat_tick
 execute as @e[type=minecraft:item_display,tag=shadow.mailitem] at @s run function shadow:mail_orphan
 execute as @a[gamemode=!spectator] if items entity @s container.* *[custom_data~{shadow_satchel:1b}] at @s run function shadow:sat_tick
@@ -74,7 +75,6 @@ execute as @a[scores={ecl.fl=1..}] run function shadow:ecl_flash_tick
 execute as @a[scores={ecl.cap=1..}] run function shadow:ecl_cap_tick
 execute as @a if items entity @s container.* *[custom_data~{shadow_light_raw:1b}] run function shadow:light_verify
 execute as @a if items entity @s container.* *[custom_data~{shadow_eclipse_raw:1b}] run function shadow:ecl_verify
-execute as @e[type=minecraft:item] if items entity @s contents *[custom_data~{shadow_shard:1b}] at @s if block ~ ~ ~ minecraft:void_air run function shadow:void_catch
 execute as @e[tag=shadow.motorboat] at @s run function shadow:mb_tick
 execute as @e[type=minecraft:item_display,tag=shadow.mbseat] unless function shadow:mb_has_rider run kill @s
 execute as @e[type=minecraft:item_display,tag=shadow.mbseat] unless function shadow:mb_has_vehicle run kill @s
