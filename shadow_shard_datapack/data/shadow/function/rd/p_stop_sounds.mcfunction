@@ -4,3 +4,5 @@ stopsound @a[distance=..96] record shadow:radio.port3
 stopsound @a[distance=..96] record shadow:radio.port4
 stopsound @a[distance=..96] record shadow:radio.port5
 stopsound @a[distance=..96] record shadow:radio.port6
+stopsound @a[distance=..96] record shadow:radio.port7
+stopsound @a[distance=..96] record shadow:radio.port8

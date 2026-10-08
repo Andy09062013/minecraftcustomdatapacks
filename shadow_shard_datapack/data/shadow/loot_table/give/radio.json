@@ -29,11 +29,6 @@
                     "text": "Sneak + left click to pick it back up",
                     "color": "dark_gray",
                     "italic": false
-                  },
-                  {
-                    "text": "Custom songs must be .ogg files",
-                    "color": "yellow",
-                    "italic": false
                   }
                 ],
                 "minecraft:max_stack_size": 1,

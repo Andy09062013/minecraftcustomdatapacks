@@ -135,5 +135,45 @@
         "attenuation_distance": 96
       }
     ]
+  },
+  "radio.song7": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song7",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port7": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song7",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "radio.song8": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song8",
+        "stream": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "radio.port8": {
+    "subtitle": "Radio plays",
+    "sounds": [
+      {
+        "name": "shadow:radio/song8",
+        "stream": true,
+        "attenuation_distance": 96
+      }
+    ]
   }
 }
