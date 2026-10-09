@@ -3,3 +3,4 @@ scoreboard players operation @e[type=minecraft:block_display,tag=lc.new,limit=1]
 ride @e[type=minecraft:block_display,tag=lc.new,limit=1] mount @s
 tag @e[tag=lc.new] remove lc.new
 data modify entity @s damage set value 0.01d
+tag @s add lc.arrow

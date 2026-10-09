@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:arrow",
+              "nbt": "{Tags:[\"lc.arrow\"]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shadow:lc/mob_hit"
+  }
+}
